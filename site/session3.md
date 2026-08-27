@@ -1,5 +1,5 @@
 ---
-title: "Session 3 \u2014 What broke?"
+title: "Session 3 — What broke?"
 layout: default
 parent: Course Materials
 nav_order: 3
@@ -13,6 +13,8 @@ nav_order: 3
 ## Block 5 — Reading errors and debugging systematically
 
 **Slides:** [View in browser](../units/session3/block1/slides.html)
+
 ## Block 6 — Data files, formats, size, and recovery
 
 **Slides:** [View in browser](../units/session3/block2/slides.html)
+

@@ -1,5 +1,5 @@
 ---
-title: "Session 1 \u2014 Where am I?"
+title: "Session 1 — Where am I?"
 layout: default
 parent: Course Materials
 nav_order: 1
@@ -13,6 +13,8 @@ nav_order: 1
 ## Block 1 — Files, folders, paths, and working directories
 
 **Slides:** [View in browser](../units/session1/block1/slides.html)
+
 ## Block 2 — The terminal as a way to inspect reality
 
 **Slides:** [View in browser](../units/session1/block2/slides.html)
+

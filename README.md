@@ -1,9 +1,11 @@
 # Computing for Analytical Work
 
 **ECBS5293** · Central European University · 2026–2027
+
 Course site: https://earino.github.io/ecbs5293/
 
 Instructor: Eduardo Ariño de la Rubia · RubiaE@ceu.edu
+
 ## About this repository
 
 This repository is **generated** by [course-infra](https://github.com/earino/course-infra) from a private build repository. Do not edit files here — every release overwrites them. Report problems to the instructor.

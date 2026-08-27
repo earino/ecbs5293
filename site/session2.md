@@ -1,5 +1,5 @@
 ---
-title: "Session 2 \u2014 What is running?"
+title: "Session 2 — What is running?"
 layout: default
 parent: Course Materials
 nav_order: 2
@@ -13,6 +13,8 @@ nav_order: 2
 ## Block 3 — Python interpreters, packages, imports, and environments
 
 **Slides:** [View in browser](../units/session2/block1/slides.html)
+
 ## Block 4 — Notebooks, scripts, state, and reproducibility
 
 **Slides:** [View in browser](../units/session2/block2/slides.html)
+

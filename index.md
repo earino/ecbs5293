@@ -8,9 +8,11 @@ nav_order: 1
 # Computing for Analytical Work
 
 **ECBS5293** · Central European University · MSBA · 2026–2027
+
 One credit of practical instruction in the layer beneath your other courses: the filesystem, the shell, processes, Python environments, Git, and the habit of diagnosing what actually went wrong.
 
 **Instructor:** Eduardo Ariño de la Rubia · [RubiaE@ceu.edu](mailto:RubiaE@ceu.edu)
+
 You will spend the next year writing code, training models, and analyzing data — and then keep doing those things for the rest of your career. Most of the problems that block you in that work will not be statistics or modeling. They will be computing problems: missing files, the wrong Python, notebooks that won't restart cleanly, errors you don't know how to read.
 
 This course is one credit of practical instruction in the layer *beneath* your other courses. It is not a Python course. It is a course on the operating system, the filesystem, the processes, the shell, the environments, and the version-control system your code actually runs on top of. Your other courses ask what you should compute; this one asks where the file actually is, which process is running, in which environment, with which dependencies — and how to recognize, quickly, when something has silently gone wrong.
