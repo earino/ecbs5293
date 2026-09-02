@@ -146,11 +146,11 @@ You remain fully responsible for every command you run, every file you modify, a
 
 | Component | Weight |
 |---|---:|
-| Homework 1 — Files, paths, terminal, and run instructions | 20% |
-| Homework 2 — Python execution, environments, notebooks, and Git checkpoints | 25% |
-| Homework 3 — Debugging, data files, recovery, and final diagnosis note | 25% |
+| Homework 1 — Files, paths, terminal, and run instructions | 10% |
+| Homework 2 — Python execution, environments, notebooks, and Git checkpoints | 15% |
+| Homework 3 — Debugging, data files, recovery, and final diagnosis note | 15% |
 | Knowledge checks (start of Sessions 2 and 3, closed-book) | 10% |
-| Final exam (closed-book, in-person, ~1 week after Session 3) | 20% |
+| Final exam (closed-book, in-person, ~1 week after Session 3) | 50% |
 
 ### How homework is graded
 

@@ -24,6 +24,6 @@ nav_order: 3
 
 ## Assessments
 
-- **Homework 3 — Debugging, data files, recovery, and final diagnosis note** (25%) · [starter repo](https://github.com/earino/ecbs5293-hw03-debugging-data-recovery) · [rubric](../assessments/hw3_rubric.md)
+- **Homework 3 — Debugging, data files, recovery, and final diagnosis note** (15%) · [starter repo](https://github.com/earino/ecbs5293-hw03-debugging-data-recovery) · [rubric](../assessments/hw3_rubric.md)
 - **Knowledge check 3 (start of Session 3, closed-book)** (5%)
 

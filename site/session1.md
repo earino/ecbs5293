@@ -24,5 +24,5 @@ nav_order: 1
 
 ## Assessments
 
-- **Homework 1 — Files, paths, terminal, and run instructions** (20%) · [starter repo](https://github.com/earino/ecbs5293-hw01-files-paths-terminal) · [rubric](../assessments/hw1_rubric.md)
+- **Homework 1 — Files, paths, terminal, and run instructions** (10%) · [starter repo](https://github.com/earino/ecbs5293-hw01-files-paths-terminal) · [rubric](../assessments/hw1_rubric.md)
 

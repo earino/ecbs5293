@@ -24,6 +24,6 @@ nav_order: 2
 
 ## Assessments
 
-- **Homework 2 — Python execution, environments, notebooks, and Git checkpoints** (25%) · [starter repo](https://github.com/earino/ecbs5293-hw02-python-environments-notebooks) · [rubric](../assessments/hw2_rubric.md)
+- **Homework 2 — Python execution, environments, notebooks, and Git checkpoints** (15%) · [starter repo](https://github.com/earino/ecbs5293-hw02-python-environments-notebooks) · [rubric](../assessments/hw2_rubric.md)
 - **Knowledge check 2 (start of Session 2, closed-book)** (5%)
 
