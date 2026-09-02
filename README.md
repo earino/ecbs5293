@@ -1,5 +1,7 @@
 # Computing for Analytical Work
 
+> ⚠️ **PRE-RELEASE — COURSE CONTENT IS BEING UPDATED.** This site and its repositories are published early so CEU's environment checker can verify they build on macOS and Windows. Do not start work from them until the instructor announces it on Moodle.
+
 **ECBS5293** · Central European University · 2026–2027
 
 Course site: https://earino.github.io/ecbs5293/

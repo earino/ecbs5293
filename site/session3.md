@@ -8,13 +8,22 @@ nav_order: 3
 
 # Session 3 — What broke?
 
-**TBD**
+**Mon 28 Sep 2026**
 
 ## Block 5 — Reading errors and debugging systematically
 
-**Slides:** [View in browser](../units/session3/block1/slides.html)
+**Slides:** [View in browser](../units/session3/block1/slides.html) · [Download PDF](../units/session3/block1/slides.pdf)
+
+**Lab:** The traceback is the map · [starter repo](https://github.com/earino/ecbs5293-lab05-tracebacks)
 
 ## Block 6 — Data files, formats, size, and recovery
 
-**Slides:** [View in browser](../units/session3/block2/slides.html)
+**Slides:** [View in browser](../units/session3/block2/slides.html) · [Download PDF](../units/session3/block2/slides.pdf)
+
+**Lab:** The data is the bug · [starter repo](https://github.com/earino/ecbs5293-lab06-data-files)
+
+## Assessments
+
+- **Homework 3 — Debugging, data files, recovery, and final diagnosis note** (25%) · [starter repo](https://github.com/earino/ecbs5293-hw03-debugging-data-recovery) · [rubric](../assessments/hw3_rubric.md)
+- **Knowledge check 3 (start of Session 3, closed-book)** (5%)
 

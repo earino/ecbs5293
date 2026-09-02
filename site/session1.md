@@ -8,13 +8,21 @@ nav_order: 1
 
 # Session 1 — Where am I?
 
-**TBD**
+**Mon 14 Sep 2026**
 
 ## Block 1 — Files, folders, paths, and working directories
 
-**Slides:** [View in browser](../units/session1/block1/slides.html)
+**Slides:** [View in browser](../units/session1/block1/slides.html) · [Download PDF](../units/session1/block1/slides.pdf)
+
+**Lab:** The missing file that is not missing · [starter repo](https://github.com/earino/ecbs5293-lab01-paths)
 
 ## Block 2 — The terminal as a way to inspect reality
 
-**Slides:** [View in browser](../units/session1/block2/slides.html)
+**Slides:** [View in browser](../units/session1/block2/slides.html) · [Download PDF](../units/session1/block2/slides.pdf)
+
+**Lab:** Run the project without clicking around · [starter repo](https://github.com/earino/ecbs5293-lab02-terminal)
+
+## Assessments
+
+- **Homework 1 — Files, paths, terminal, and run instructions** (20%) · [starter repo](https://github.com/earino/ecbs5293-hw01-files-paths-terminal) · [rubric](../assessments/hw1_rubric.md)
 
