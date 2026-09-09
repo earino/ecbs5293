@@ -37,7 +37,15 @@ Install [VS Code](https://code.visualstudio.com/) and, inside it, the **Python**
 
 **Windows — set the integrated terminal to Git Bash** (VS Code's default is PowerShell, which this course does not support): open the Command Palette (`Ctrl+Shift+P`) → *Terminal: Select Default Profile* → **Git Bash**. Every terminal you open inside VS Code is then the same shell the course teaches.
 
-Notebooks: always open the **project folder** (*File → Open Folder…*), and pick the kernel from the project's **`.venv/`** in the kernel picker — details in the syllabus under *Notebook standard*. JupyterLab is installed per project by the course repos as an alternative (`uv run jupyter lab`); you do not need to install anything notebook-related globally. Do **not** install Anaconda for this course; if you already have it, that is fine — just never select an Anaconda kernel for course notebooks.
+### Notebook standard
+
+Every course notebook runs the same way, and the setup check (§2) makes you do it once:
+
+1. Open the **project folder** in VS Code (*File → Open Folder…*), never the notebook file on its own.
+2. Open the notebook and click **Select Kernel** (top right) → *Python Environments…* → the entry marked *Recommended* whose path contains **`.venv`**. That is the environment `uv sync` built for this project.
+3. Verify with a cell: `import sys; sys.executable` must print a path containing `.venv`.
+
+JupyterLab is installed per project by the course repos as an alternative (`uv run jupyter lab` from the project folder opens it on the right kernel); you do not need to install anything notebook-related globally. Do **not** install Anaconda for this course; if you already have it, that is fine — just never select an Anaconda kernel for course notebooks.
 
 ### GitHub account
 
@@ -54,9 +62,11 @@ uv sync
 uv run python check.py
 ```
 
-It prints a short report ending in **`ALL CHECKS PASSED`** or **`FIX THESE FIRST`** with one line per problem. Fix, re-run, then copy the whole output (or a screenshot) into the Moodle slot.
+It prints a short report ending in **`ALL CHECKS PASSED`** or **`FIX THESE FIRST`** with one line per problem. Fix, re-run.
 
-What it proves: `uv sync` installed this project's packages into an environment of its own; `uv run` found that environment's Python; that Python can import pandas. That is the whole chain the course relies on. Session 2 explains each step — for now, type it exactly.
+Then the half a script cannot check: open the cloned folder in VS Code, open `check_notebook.ipynb`, pick the **`.venv`** kernel (the *Notebook standard* above), and **Run All**. Three outputs appear: a path containing `.venv`, a pandas version, and the folder. Submit **both** the report and a screenshot of those three outputs to the Moodle slot.
+
+What it proves: `uv sync` installed this project's packages into an environment of its own; `uv run` found that environment's Python; that Python can import pandas; and VS Code can execute a cell on that environment, which is exactly what Lab 1 asks of you in its first five minutes. Session 2 explains each step — for now, do it exactly.
 
 ## 3. Rules that save you an hour
 

@@ -66,7 +66,7 @@ Scored per element: **full**, **half** (vague or wrong), or **0** (absent).
 | Change | 3 | 1 | What you changed, for each |
 | Verification | 4 | 2 | Restart-and-Run-All shown succeeding on a fresh kernel |
 
-Also required for any points: 60–90 seconds, your voice, starts by naming the homework and the repo. Excellent / Satisfactory / Needs Improvement map to 13–15 / 8–12 / 0–7.
+Your voice is required: a silent recording scores 0 on all four elements — the point is you explaining. Open by naming the homework and the repo; a missed name is a clean-submission matter (criterion 5), not a video one. 60–90 seconds. Excellent / Satisfactory / Needs Improvement map to 13–15 / 8–12 / 0–7.
 
 *Approved alternative formats* (see the syllabus's accessibility section — arrange in advance): a written walkthrough with annotated screenshots, or an audio-only recording, is scored on the same four elements at the same values. The "your voice" requirement applies to the standard video route only, never to an arranged accommodation.
 
@@ -75,7 +75,7 @@ Also required for any points: 60–90 seconds, your voice, starts by naming the 
 | Level | Points | Criteria |
 |---|---|---|
 | **Excellent** | 10 | `GIT_LOG.txt` shows at least two meaningful commits with messages that say what they fixed; the **recovery exercise** is documented (`RECOVERY.md`: what you broke, the exact `git` commands that brought the file back, and how you confirmed it); nothing junk in the archive. |
-| **Satisfactory** | 6 | Commits exist but messages are "fix"/"update", or the recovery exercise is thin. |
+| **Satisfactory** | 6 | Commits exist but messages are "fix"/"update", the recovery exercise is thin, or the video does not open by naming the homework and repo. |
 | **Needs Improvement** | 2 | No checkpoints, no recovery exercise, or environment files in the archive. |
 
 **What we're looking for:** a `git log` that tells the story, and proof you can get a file back without re-downloading the project.
@@ -95,4 +95,4 @@ Also required for any points: 60–90 seconds, your voice, starts by naming the 
 - The diagnosis note and the video together (35 points) outweigh the fix (30). A working repo you cannot explain will lose meaningful credit; a partial fix with a clear, honest diagnosis can still do well.
 - AI tools are allowed. You must be able to explain everything you submit, in your own words, without notes.
 - "It works in my terminal" is not verification. The kernel is what runs the notebook.
-- Late: −10% per calendar day, up to three days (syllabus, *Policies*).
+- Late: accepted up to one day late at −10%; nothing after Saturday 23:59 (syllabus, *Policies*).

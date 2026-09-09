@@ -66,7 +66,7 @@ Scored per element: **full**, **half** (vague or wrong), or **0** (absent). Up t
 | Change | 3 | 1 | What you changed — loading options vs. code — and why that split |
 | Verification | 4 | 2 | Shows the checks that prove the data loaded correctly |
 
-Also required for any points: your voice, starts by naming the homework and the repo. Excellent / Satisfactory / Needs Improvement map to 13–15 / 8–12 / 0–7.
+Your voice is required: a silent recording scores 0 on all four elements — the point is you explaining. Open by naming the homework and the repo; a missed name is a clean-submission matter (criterion 6), not a video one. Excellent / Satisfactory / Needs Improvement map to 13–15 / 8–12 / 0–7.
 
 *Approved alternative formats* (see the syllabus's accessibility section — arrange in advance): a written walkthrough with annotated screenshots, or an audio-only recording, is scored on the same four elements at the same values. The "your voice" requirement applies to the standard video route only, never to an arranged accommodation.
 
@@ -85,7 +85,7 @@ Also required for any points: your voice, starts by naming the homework and the 
 | Level | Points | Criteria |
 |---|---|---|
 | **Excellent** | 10 | `GIT_LOG.txt` shows a sequence of meaningful commits ending in a clean final state; nothing junk in the archive; run instructions correct. |
-| **Satisfactory** | 6 | Minor clutter or a stale instruction, or commit messages that say nothing. |
+| **Satisfactory** | 6 | Minor clutter or a stale instruction, or commit messages that say nothing, or the video does not open by naming the homework and repo. |
 | **Needs Improvement** | 2 | No history, junk in the archive, or instructions that do not work. |
 
 **What we're looking for:** before archiving, you knew exactly what changed.

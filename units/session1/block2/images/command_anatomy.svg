@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="380" viewBox="0 0 1180 380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#1f2328">
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+</defs>
+<text x="40" y="110" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="44" fill="#0969da" font-weight="700" textLength="52.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">ls</text>
+<path d="M40,122 v10 h53 v-10" fill="none" stroke="#0969da" stroke-width="3"/>
+<circle cx="66" cy="154" r="12" fill="#0969da"/>
+<text x="66" y="159" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<circle cx="542" cy="54" r="12" fill="#0969da"/>
+<text x="542" y="59" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<text x="560" y="61" font-size="21" fill="#0969da"><tspan font-weight="700">command</tspan><tspan fill="#57606a" dx="10">the program to run</tspan></text>
+<text x="119.19999999999999" y="110" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="44" fill="#8250df" font-weight="700" textLength="52.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">-l</text>
+<path d="M119,122 v10 h53 v-10" fill="none" stroke="#8250df" stroke-width="3"/>
+<circle cx="146" cy="154" r="12" fill="#8250df"/>
+<text x="146" y="159" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<circle cx="542" cy="100" r="12" fill="#8250df"/>
+<text x="542" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<text x="560" y="107" font-size="21" fill="#8250df"><tspan font-weight="700">option (flag)</tspan><tspan fill="#57606a" dx="10">changes how it behaves: here, a long listing</tspan></text>
+<text x="198.39999999999998" y="110" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="44" fill="#1a7f37" font-weight="700" textLength="211.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">data/raw</text>
+<path d="M198,122 v10 h211 v-10" fill="none" stroke="#1a7f37" stroke-width="3"/>
+<circle cx="304" cy="154" r="12" fill="#1a7f37"/>
+<text x="304" y="159" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<circle cx="542" cy="146" r="12" fill="#1a7f37"/>
+<text x="542" y="151" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<text x="560" y="153" font-size="21" fill="#1a7f37"><tspan font-weight="700">argument</tspan><tspan fill="#57606a" dx="10">what to act on: a path, resolved from the cwd</tspan></text>
+<rect x="30" y="210" width="900" height="158" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+<text x="50" y="248" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#57606a" font-weight="400" textLength="264.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">anna@laptop project $ </text>
+<text x="314.0" y="248" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1f2328" font-weight="700" textLength="168.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">ls -l data/raw</text>
+<text x="50" y="282" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1f2328" font-weight="400" textLength="96.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">total 96</text>
+<text x="50" y="316" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1f2328" font-weight="400" textLength="660.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">-rw-r--r--  1 anna  staff  48211 Sep  3 10:42 sales.csv</text>
+<path d="M374,324 v8 h60 v-8" fill="none" stroke="#57606a" stroke-width="2"/>
+<text x="404" y="352" text-anchor="middle" font-size="17" fill="#57606a">size in bytes</text>
+<path d="M446,324 v8 h144 v-8" fill="none" stroke="#57606a" stroke-width="2"/>
+<text x="518" y="352" text-anchor="middle" font-size="17" fill="#57606a">last modified</text>
+<text x="970" y="300" font-size="18" fill="#57606a">evidence, before you</text>
+<text x="970" y="324" font-size="18" fill="#57606a">open anything</text>
+</svg>

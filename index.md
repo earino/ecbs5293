@@ -7,8 +7,6 @@ nav_order: 1
 
 # Computing for Analytical Work
 
-> ⚠️ **PRE-RELEASE — COURSE CONTENT IS BEING UPDATED.** This site and its repositories are published early so CEU's environment checker can verify they build on macOS and Windows. Do not start work from them until the instructor announces it on Moodle.
-
 **ECBS5293** · Central European University · MSBA · 2026–2027
 
 One credit of practical instruction in the layer beneath your other courses: the filesystem, the shell, processes, Python environments, Git, and the habit of diagnosing what actually went wrong.

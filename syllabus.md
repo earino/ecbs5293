@@ -89,7 +89,7 @@ All deadlines are on Moodle, which is authoritative.
 
 ## Submitting your work
 
-Everything is submitted through **Moodle**; nothing is graded from GitHub. You clone each lab and homework from a public starter repository and work locally; each homework README gives the exact submission commands (a Git-produced zip plus your video). Submissions must run as instructed from a fresh unzip and contain nothing you cannot explain.
+Everything is submitted through **Moodle**; nothing is graded from GitHub. You clone each lab and homework from a public starter repository and work locally; each homework README gives the exact submission commands (a zip made the way that README says — a helper script in Homework 1, `git archive` from Homework 2 on — plus your video). Submissions must run as instructed from a fresh unzip and contain nothing you cannot explain.
 
 ---
 
