@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="450" viewBox="0 0 1180 450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#1f2328">
+<defs>
+<marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker>
+<marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/></marker>
+<marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cf222e"/></marker>
+<marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8250df"/></marker>
+<marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+<marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc4c00"/></marker>
+</defs>
+<rect x="30" y="20" width="520" height="300" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+<text x="50" y="50" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="400" textLength="142.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">pyproject.toml</text>
+<text x="50" y="84" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="91.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[project]</text>
+<text x="50" y="108" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="367.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">name = "ecbs5293-lab03-environments"</text>
+<text x="50" y="132" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="173.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">version = "0.1.0"</text>
+<text x="50" y="156" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="469.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">description = "ECBS5293 lab 3: it imports on …</text>
+<text x="50" y="180" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="265.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">requires-python = "&gt;=3.10"</text>
+<text x="50" y="204" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="163.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">dependencies = [</text>
+<text x="50" y="228" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="132.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    "pandas",</text>
+<text x="50" y="252" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="173.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    "matplotlib",</text>
+<text x="50" y="276" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="10.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">]</text>
+<rect x="44" y="186" width="495" height="96" rx="6" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="44" cy="186" r="13" fill="#0969da"/><text x="44" y="191" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<rect x="590" y="20" width="560" height="300" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+<text x="610" y="50" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="400" textLength="295.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">uv.lock  (one of its entries)</text>
+<text x="610" y="84" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1f2328" font-weight="400" textLength="99.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[[package]]</text>
+<text x="610" y="108" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1f2328" font-weight="400" textLength="171.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">name = "matplotlib"</text>
+<text x="610" y="132" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1f2328" font-weight="400" textLength="162.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">version = "3.10.9"</text>
+<text x="610" y="156" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1f2328" font-weight="400" textLength="441.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">source = { registry = "https://pypi.org/simple" }</text>
+<text x="610" y="180" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1f2328" font-weight="400" textLength="144.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">dependencies = [</text>
+<text x="610" y="204" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1f2328" font-weight="400" textLength="468.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">sdist = { url = "https://files.pythonhosted.org/pa …</text>
+<rect x="604" y="115" width="530" height="24" rx="6" fill="none" stroke="#1a7f37" stroke-width="2.5"/>
+<circle cx="604" cy="115" r="13" fill="#1a7f37"/><text x="604" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<rect x="604" y="187" width="530" height="24" rx="6" fill="none" stroke="#8250df" stroke-width="2.5"/>
+<circle cx="604" cy="187" r="13" fill="#8250df"/><text x="604" y="192" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<circle cx="44" cy="352" r="13" fill="#0969da"/><text x="44" y="357" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<text x="66" y="358" font-size="17" fill="#1f2328" font-weight="400" text-anchor="start">The wish list: names, no versions. You edit this with uv add.</text>
+<circle cx="44" cy="386" r="13" fill="#1a7f37"/><text x="44" y="391" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<text x="66" y="392" font-size="17" fill="#1f2328" font-weight="400" text-anchor="start">The receipt: the exact version that satisfied the wish, for every package, including ones you never named.</text>
+<circle cx="44" cy="420" r="13" fill="#8250df"/><text x="44" y="425" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<text x="66" y="426" font-size="17" fill="#1f2328" font-weight="400" text-anchor="start">A hash of the bytes: uv sync installs the same thing on every machine, and refuses anything else.</text>
+</svg>
