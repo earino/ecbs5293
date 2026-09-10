@@ -70,7 +70,7 @@ What it proves: `uv sync` installed this project's packages into an environment 
 
 ## 3. Rules that save you an hour
 
-- **Windows: never type bare `python` in Git Bash.** It hangs with no error. Always `python --version`, `python -c "..."`, `python script.py`, or `uv run python …`.
+- **Windows: never type bare `python` in Git Bash.** In the standalone Git Bash window it often hangs with no error; inside VS Code's terminal it may work. Do not find out which you have: always `python --version`, `python -c "..."`, `python script.py`, or `uv run python …`.
 - **Notebooks run on the project's own kernel.** In VS Code: open the folder, pick the `.venv/` interpreter in the kernel picker, and verify with `import sys; sys.executable`. A global Python, Anaconda, or another project's kernel silently uses a different Python than the one `uv` manages — and recreates exactly the problem this course teaches you to diagnose.
 - **Every course repo is run from its own folder** (the one containing `pyproject.toml`). The READMEs say so; the labs are built around it.
 
