@@ -6,7 +6,7 @@
 <text x="50" y="96" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="700" textLength="30.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[1]</text>
 <text x="124" y="96" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="400" textLength="387.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">df = pd.read_csv("data/raw/sales.csv")</text>
 <text x="650" y="96" font-size="14" fill="#cf222e" font-weight="700" text-anchor="end">deleted from the page</text>
-<rect x="110" y="122" width="550" height="56" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+<rect x="110" y="122" width="550" height="58" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
 <text x="50" y="148" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="700" textLength="30.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[2]</text>
 <text x="124" y="148" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="275.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">total = df["revenue"].sum()</text>
 <text x="124" y="170" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1a7f37" font-weight="400" textLength="72.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">28317.25</text>
