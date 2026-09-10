@@ -84,7 +84,7 @@ anna@laptop project $
 <ul>
 <li><strong>macOS / Linux</strong>: the system Terminal. <strong>Windows</strong>: <strong>Git Bash</strong>, installed with Git for Windows. PowerShell and <code>cmd.exe</code> are at your own risk; TAs will not debug them in lab. Every command in this course works identically in both.</li>
 </ul>
-<p><strong>Windows rule: never type bare <code>python</code> in Git Bash.</strong> In the Git Bash window Git for Windows installs, it often hangs with no error. Inside VS Code's terminal it may just work. You cannot tell in advance, so always pass an argument:</p>
+<p><strong>Windows rule: never type bare <code>python</code> in Git Bash.</strong> On some setups it hangs with no error; on others it drops you into Python's <code>&gt;&gt;&gt;</code> prompt. Neither is where you want to be, and you cannot tell in advance which you have, so always pass an argument:</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">python --version
 python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot;</span>
 </code></pre>
@@ -197,20 +197,19 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 <p>1,201 lines. If the header is one line, every record is one line, and nothing trails at the end: 1,200 rows. Say those assumptions when you subtract; a quoted field with a line break in it breaks the arithmetic. When your dataframe says 900, you have a number to argue with.</p>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="19" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;--marpit-advanced-background-split:38%;" data-marpit-pagination-total="30" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;images/excel_single_column.png&quot;);background-size:contain;"></figure></div></section></foreignObject><foreignObject width="62%" height="720"><section id="19" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="19" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;--marpit-advanced-background-split:38%;" data-marpit-pagination-total="30" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="19" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="why-not-just-open-it-in-excel">Why not just open it in Excel?</h2>
-
+<p><img src="images/excel_two_laptops.png" alt="" style="height:280px;" /></p>
 <ul>
-<li>Excel does not show you the file. It shows you its <strong>interpretation</strong> of the file.</li>
-<li>It reinterprets dates, drops leading zeros, reads <code>1,440.00</code> by locale, and depending on the Windows regional format may not split the columns at all: the whole row lands in one cell (right). On save it may change the delimiter or encoding.</li>
+<li>Excel does not show you the file. It shows you its <strong>interpretation</strong>, and the interpretation depends on the laptop: one CSV, two regional formats, two different wrong answers.</li>
 <li>Then you click Save, and the file on disk is different from the one you were given.</li>
 <li><code>head</code> shows the bytes. It cannot change them.</li>
 </ul>
 <p>Rule for the course: inspect with the terminal; analyse in Python; open in Excel only when you mean to edit.</p>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
 </section>
-</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="19" style="" data-marpit-pagination-total="30" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="20" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="20" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="predict-a-script-run-from-scripts">Predict: a script run from <code>scripts/</code></h2>
 <p>Two launches. Inside the script, both times, the code opens <code>data/raw/sales.csv</code>.</p>
