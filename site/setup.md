@@ -45,7 +45,7 @@ Every course notebook runs the same way, and the setup check (§2) makes you do 
 2. Open the notebook and click **Select Kernel** (top right) → *Python Environments…* → the entry marked *Recommended* whose path contains **`.venv`**. That is the environment `uv sync` built for this project.
 3. Verify with a cell: `import sys; sys.executable` must print a path containing `.venv`.
 
-JupyterLab is installed per project by the course repos as an alternative (`uv run jupyter lab` from the project folder opens it on the right kernel); you do not need to install anything notebook-related globally. Do **not** install Anaconda for this course; if you already have it, that is fine — just never select an Anaconda kernel for course notebooks.
+JupyterLab is installed per project by the course repos as an alternative (`uv run jupyter lab` from the project folder offers the project's kernel by default; verify with `sys.executable` exactly as in VS Code); you do not need to install anything notebook-related globally. Do **not** install Anaconda for this course; if you already have it, that is fine — just never select an Anaconda kernel for course notebooks.
 
 ### GitHub account
 

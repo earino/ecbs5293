@@ -30,7 +30,7 @@
 <li>Cells, the kernel, and what the kernel remembers</li>
 <li>Out-of-order execution and variables from earlier runs</li>
 <li>Imports after first use; outputs from a previous run</li>
-<li>Restart Kernel and Run All — the only accepted verification</li>
+<li>Restart Kernel and Run All — the execution test, and what it does not test</li>
 <li>Notebook vs script; minimal reproducibility</li>
 <li>Where the kernel comes from: <code>uv run jupyter lab</code>, again</li>
 <li>Git thread: commit messages and <code>.gitignore</code></li>
@@ -125,9 +125,10 @@ total = df[<span class="hljs-string">&quot;amount&quot;</span>].<span class="hlj
 <ul>
 <li>Kills the process. Every variable is gone. Every import is gone.</li>
 <li>Runs every cell, top to bottom, in page order, from nothing.</li>
-<li>If it finishes clean, the notebook is honest. If it fails, the page was lying.</li>
+<li>If it finishes clean, every cell runs in page order from nothing. If it fails, the page was lying.</li>
+<li>Clean says nothing about whether the numbers are right. That is a second, separate check against the data.</li>
 </ul>
-<p>&quot;It worked when I ran it&quot; is not evidence. <strong>Restart and Run All is the only accepted verification.</strong> Before you commit. Before you submit. Before you say &quot;done.&quot;</p>
+<p>&quot;It worked when I ran it&quot; is not evidence. <strong>Restart and Run All is the required execution test.</strong> Before you commit. Before you submit. Before you say &quot;done.&quot;</p>
 <footer>Block 4 — Notebooks, scripts, state, and reproducibility</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-header="ECBS5293 · Session 2" data-footer="Block 4 — Notebooks, scripts, state, and reproducibility" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="12" style="--paginate:true;--header:ECBS5293 · Session 2;--footer:Block 4 — Notebooks, scripts, state, and reproducibility;--lang:en;--theme:course;" data-marpit-pagination-total="28">
@@ -136,7 +137,7 @@ total = df[<span class="hljs-string">&quot;amount&quot;</span>].<span class="hlj
 <ul>
 <li><strong>Notebook</strong> — exploring. Look at a dataframe, try a plot, change your mind. State is the feature.</li>
 <li><strong>Script</strong> — repeating. Same input, same steps, same output, every time. No state survives.</li>
-<li>A script <em>cannot</em> have the hidden-state problem. It starts from nothing on every run.</li>
+<li>A script cannot carry kernel state between runs; it starts from nothing every time. Its <em>inputs</em> can still change its output. For this course's scripts: same input, same output.</li>
 </ul>
 <p>When a notebook has stopped changing and you just need it to run again tomorrow, that is a script.</p>
 <footer>Block 4 — Notebooks, scripts, state, and reproducibility</footer>
@@ -157,7 +158,7 @@ total = df[<span class="hljs-string">&quot;amount&quot;</span>].<span class="hlj
 <header>ECBS5293 · Session 2</header>
 <h2 id="where-the-kernel-comes-from--the-rule-again">Where the kernel comes from — the rule, again</h2>
 <p>Open the <strong>project folder</strong> in VS Code → kernel picker → the <strong><code>.venv/</code></strong> interpreter.<br />
-(Or <code>uv run jupyter lab</code> from the folder — no picker.)</p>
+(Or <code>uv run jupyter lab</code> from the folder; verify the same way.)</p>
 <ul>
 <li>A global kernel, Anaconda, or another project's <code>.venv</code>: <strong>right code, wrong Python</strong></li>
 <li>The cells are correct. The kernel searches a different <code>sys.path</code>. <code>ModuleNotFoundError</code>.</li>
@@ -199,8 +200,9 @@ total = df[<span class="hljs-string">&quot;amount&quot;</span>].<span class="hlj
 <header>ECBS5293 · Session 2</header>
 <h2 id="gitignore--what-it-is"><code>.gitignore</code> — what it is</h2>
 <ul>
-<li>A plain text file at the repo root, listing paths Git should <strong>pretend do not exist</strong></li>
-<li>Ignored files never show in <code>git status</code>, never get staged by <code>git add .</code>, never get committed</li>
+<li>A plain text file at the repo root, listing paths Git should <strong>skip</strong></li>
+<li>Ignored paths are skipped by <code>git status</code> and by <code>git add .</code>, so the ordinary accident cannot happen</li>
+<li>Two limits: a file Git already tracks stays tracked, and <code>git add -f</code> forces one in. A guard, not a law.</li>
 <li>Every course repo ships the same standard one. You will read it, not write it.</li>
 </ul>
 <p><strong>Git is for source work and meaningful checkpoints, not local junk.</strong> The next four slides walk the file, section by section.</p>
@@ -313,6 +315,7 @@ uv <span class="hljs-built_in">sync</span>
 <li>The saved outputs look correct. Every result is there. <strong>Do not trust them.</strong></li>
 <li><strong>Restart Kernel and Run All Cells</strong> → it fails with <code>NameError</code></li>
 <li>Cells depend on cells that come <em>later</em> on the page. Find them. Fix the order, or rewrite.</li>
+<li>Then, with a clean tree after your commit: delete a cell, save, <code>git status</code>, <code>git restore</code> the notebook, run clean again. Five minutes. Homework 2 grades this move.</li>
 </ul>
 <footer>Block 4 — Notebooks, scripts, state, and reproducibility</footer>
 </section>
@@ -322,10 +325,10 @@ uv <span class="hljs-built_in">sync</span>
 <ol>
 <li>The notebook passes <strong>Restart Kernel and Run All Cells</strong> — clean, top to bottom, twice</li>
 <li>Imports in the first cell; no cell depends on a later one</li>
-<li>One commit with a message that says what you fixed; <code>git diff</code> empty afterward</li>
-<li><code>git status</code> shows no <code>.ipynb_checkpoints/</code> or <code>.venv/</code> — <code>.gitignore</code> is doing its job</li>
+<li>One commit with a message that says what you fixed; <code>git status</code> clean afterward, no <code>.ipynb_checkpoints/</code> or <code>.venv/</code> in it</li>
+<li>Recovery practised: a deleted cell brought back with <code>git restore</code>, then a clean run again</li>
 <li><code>DIAGNOSIS.md</code>: symptom, cause, evidence (the <code>NameError</code> line, the cell numbers), change, verification</li>
-<li>Checkoff: explain it to a TA in about a minute. No notes.</li>
+<li>Checkoff: explain it to a TA in about a minute. No notes. Then one what-if question about kernel state.</li>
 </ol>
 <p>Stretch: repeated cleaning steps into one function; a script that runs the core workflow fresh; one sanity check. Resets in the README; both destroy work.</p>
 <footer>Block 4 — Notebooks, scripts, state, and reproducibility</footer>
@@ -340,8 +343,9 @@ uv <span class="hljs-built_in">sync</span>
 <li>dependency file (<code>pyproject.toml</code> + <code>uv.lock</code>, via <code>uv add</code>)</li>
 <li>a notebook that passes Restart Kernel and Run All</li>
 <li><strong>two</strong> meaningful commits — one after the environment fix, one after the notebook fix — with real messages</li>
-<li>a diagnosis note</li>
-<li>a <strong>60–90 second video</strong> showing Restart and Run All succeeding and explaining what was broken, what changed, how you verified</li>
+<li>a diagnosis note per failure, with the <strong>reconciliation</strong>: script table = notebook numbers, to the cent; selection = the README's threshold</li>
+<li><code>RECOVERY.md</code>: break a committed file on purpose, <code>git restore</code> it, prove it</li>
+<li>a <strong>60–90 second video</strong>: Restart and Run All succeeding, then what broke, what changed, how you verified</li>
 </ul>
 <footer>Block 4 — Notebooks, scripts, state, and reproducibility</footer>
 </section>
