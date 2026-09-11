@@ -35,7 +35,7 @@ This course is one credit of practical instruction in the layer *beneath* your o
 
 ## Format and workload
 
-Each session runs two blocks of lecture plus hands-on lab, with a break between. Sessions 2 and 3 open with a 10-minute closed-book knowledge check. The labs are where the learning happens: each gives you an intentionally broken project to diagnose, repair, verify, and explain. Expect about 25 hours of work outside class, most of it on the three homeworks.
+Each session runs two blocks of a 45-minute lecture plus a 45-minute hands-on lab, with a break between. Sessions 2 and 3 open with a 10-minute closed-book knowledge check. The labs are where the learning happens: each gives you an intentionally broken project to diagnose, repair, verify, and explain. Expect about 25 hours of work outside class, most of it on the three homeworks.
 
 ---
 
@@ -67,7 +67,7 @@ You remain fully responsible for everything you run, change, and submit. The ass
 
 **Homework** is the repair of a broken repository, graded against a rubric published with each assignment. Every submission includes a written diagnosis note — symptom, cause, evidence, change, verification — and a short video walkthrough in your own voice. The explanation carries more weight than the fix: a working repo you cannot explain loses meaningful credit; a partial fix with an honest diagnosis can still do well. A self-check key for each homework is posted on Moodle after its late window closes.
 
-**Labs carry no points.** A lab is complete when you explain your fix to a TA in a short oral checkoff (in lab, at office hours, or asynchronously). Labs cost you preparation if skipped, not points.
+**Labs carry no points.** A lab is complete when you have explained your fix to a classmate in the last ten minutes of the lab and submitted your diagnosis note to that lab's Moodle checkpoint. Staff listen to a sample of those explanations and come first to anyone who asks. Labs cost you preparation if skipped, not points.
 
 **Knowledge checks** are 10-minute closed-book checks on the previous session's material. Each is 5%.
 
@@ -98,7 +98,7 @@ Everything is submitted through **Moodle**; nothing is graded from GitHub. You c
 - **Late homework:** HW1 and HW2 are accepted up to one day late at −10% (nothing after Saturday 23:59, so the self-check key can post before Monday's knowledge check). HW3's deadline is firm — its key posts immediately.
 - **Extensions:** ask before the deadline, by email, with a reason. Documented illness or emergencies are always accommodated.
 - **Missed knowledge check:** a documented absence moves that 5% to the final exam; an undocumented absence scores 0. No make-up checks.
-- **Missed lab checkoff:** complete it in office hours that week or asynchronously.
+- **Missed lab:** do it at home that week and submit the diagnosis note to its Moodle checkpoint; say in the note if you want someone to look at it.
 - **Regrading:** within 7 days, in writing, naming the rubric criterion you believe was misapplied. The whole submission is re-read; the grade can move either way.
 - **Grade conversion:** CEU letter scale — A 94+ · A- 88–93 · B+ 80–87 · B 71–79 · B- 63–70 · C+ 58–62 (minimum pass) · F below.
 
@@ -106,4 +106,4 @@ Everything is submitted through **Moodle**; nothing is graded from GitHub. You c
 
 ## Academic integrity and accessibility
 
-CEU academic integrity and accessibility policies apply; contact me and the relevant university office early if you need accommodations. If speaking aloud is a barrier, the oral checkoff and homework videos can be completed in writing or by audio with the same content requirements — arrange it with me in advance. Accessible-format exam papers are available on request per your CEU accommodation letter; ask at least a week ahead.
+CEU academic integrity and accessibility policies apply; contact me and the relevant university office early if you need accommodations. If speaking aloud is a barrier, the end-of-lab explanation can be written for your partner to read, and homework videos can be completed in writing or by audio with the same content requirements — arrange it with me in advance. Accessible-format exam papers are available on request per your CEU accommodation letter; ask at least a week ahead.

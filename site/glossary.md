@@ -30,6 +30,8 @@ Every term the syllabus and setup pages use, one plain sentence each. If a word 
 
 **Kernel** — the live Python process that runs your notebook's cells and remembers your variables between runs.
 
+**Lab checkpoint** — the Moodle slot where you upload your diagnosis note at the end of each lab, with one line saying who you explained it to and what you need help with. A lab is complete when it is in; labs carry no points.
+
 **Lock file** (`uv.lock`) — the exact list of every package version a project uses, so `uv sync` builds the identical environment on any machine.
 
 **Notebook** (`.ipynb` file) — a document that mixes runnable code cells with their outputs and text; convenient for exploration, and the reason "run order" and "kernel state" matter.
