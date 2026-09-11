@@ -15,7 +15,7 @@ Session 1 cannot be tech support. Submit the check's output to the Moodle "Setup
 ### Git (2.23 or later)
 
 - **macOS:** open Terminal, type `git --version`. If it offers to install the command-line tools, accept. Or `brew install git`.
-- **Windows:** install [Git for Windows](https://git-scm.com/download/win). Accept the defaults. This installs **Git Bash**, which you will use for *everything* in this course — not PowerShell, not cmd, not Anaconda Prompt. Then, in Git Bash: `git config --global core.autocrlf input`
+- **Windows:** you need an administrator account for the installs below ("Access is denied" partway through means you are on a Standard account). Install [Git for Windows](https://git-scm.com/download/win). Accept the defaults, with two exceptions: on the *default editor* screen choose **Visual Studio Code** if it is offered (it is greyed out until VS Code is installed — then pick anything and, after installing VS Code below, run `git config --global core.editor "code --wait"`); on the *initial branch* screen tick *Override the default branch name* and enter `main`. This installs **Git Bash**, which you will use for *everything* in this course — not PowerShell, not cmd, not Anaconda Prompt. Then, in Git Bash: `git config --global core.autocrlf input`
 - **Linux:** `sudo apt install git` (or your distribution's equivalent).
 
 ### uv (the program-standard Python manager)
@@ -41,7 +41,7 @@ Install [VS Code](https://code.visualstudio.com/) and, inside it, the **Python**
 
 Every course notebook runs the same way, and the setup check (§2) makes you do it once:
 
-1. Open the **project folder** in VS Code (*File → Open Folder…*), never the notebook file on its own.
+1. Open the **project folder** in VS Code (*File → Open Folder…*), never the notebook file on its own. If VS Code asks whether you trust the authors, choose **Yes, I trust the authors** — in Restricted Mode the kernel picker shows no environments at all.
 2. Open the notebook and click **Select Kernel** (top right) → *Python Environments…* → the entry marked *Recommended* whose path contains **`.venv`**. That is the environment `uv sync` built for this project.
 3. Verify with a cell: `import sys; sys.executable` must print a path containing `.venv`.
 

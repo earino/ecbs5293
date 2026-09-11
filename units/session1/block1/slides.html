@@ -62,7 +62,7 @@
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">project/
   data/
     raw/
-      sales.csv
+      sales_2024.csv
   notebooks/
     analysis.ipynb
   scripts/
@@ -75,8 +75,8 @@
 <header>ECBS5293 · Session 1</header>
 <h2 id="absolute-paths">Absolute paths</h2>
 <p>An absolute path starts at the root of the tree and spells out every step.</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">/Users/anna/project/data/raw/sales.csv        macOS
-C:/Users/anna/project/data/raw/sales.csv      Windows (Git Bash shows /c/Users/...)
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">/Users/anna/project/data/raw/sales_2024.csv        macOS
+C:/Users/anna/project/data/raw/sales_2024.csv      Windows (Git Bash shows /c/Users/...)
 </code></pre>
 <ul>
 <li>Unambiguous: it means the same thing no matter where you are.</li>
@@ -89,12 +89,12 @@ C:/Users/anna/project/data/raw/sales.csv      Windows (Git Bash shows /c/Users/.
 <h2 id="relative-paths">Relative paths</h2>
 
 <p>A relative path starts from <em>somewhere</em> and gives directions from there.</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">data/raw/sales.csv
-../data/raw/sales.csv
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">data/raw/sales_2024.csv
+../data/raw/sales_2024.csv
 ./analysis.ipynb
 </code></pre>
 <ul>
-<li><code>..</code> means &quot;the parent folder&quot;. <code>.</code> means &quot;this folder&quot;.</li>
+<li><code>..</code> means &quot;the parent folder&quot;; it stacks (<code>../..</code> is the parent's parent). <code>.</code> means &quot;this folder&quot;.</li>
 <li>Portable across machines. But only meaningful once you know the starting point.</li>
 </ul>
 <footer>Block 1 — Files, folders, paths, and working directories</footer>
@@ -108,8 +108,8 @@ C:/Users/anna/project/data/raw/sales.csv      Windows (Git Bash shows /c/Users/.
 <li>The cwd is set when the program starts, by whoever started it.</li>
 <li>It is a property of the <em>process</em>, not of your code or your intentions.</li>
 </ul>
-<p><code>data/raw/sales.csv</code> + cwd <code>project/</code> → found.<br />
-<code>data/raw/sales.csv</code> + cwd <code>project/notebooks/</code> → not found.</p>
+<p><code>data/raw/sales_2024.csv</code> + cwd <code>project/</code> → found.<br />
+<code>data/raw/sales_2024.csv</code> + cwd <code>project/notebooks/</code> → not found.</p>
 <footer>Block 1 — Files, folders, paths, and working directories</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 1 — Files, folders, paths, and working directories" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="9" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 1 — Files, folders, paths, and working directories;--lang:en;--theme:course;" data-marpit-pagination-total="29">
@@ -148,7 +148,8 @@ README.md  data  notebooks  pyproject.toml  scripts
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 1 — Files, folders, paths, and working directories" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="12" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 1 — Files, folders, paths, and working directories;--lang:en;--theme:course;" data-marpit-pagination-total="29">
 <header>ECBS5293 · Session 1</header>
 <h2 id="cd--and-then-ask-again"><code>cd</code> — and then ask again</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cd</span> notebooks &amp;&amp; <span class="hljs-built_in">pwd</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cd</span> notebooks
+<span class="hljs-built_in">pwd</span>
 </code></pre>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">/Users/anna/project/notebooks
 </code></pre>
@@ -163,7 +164,7 @@ README.md  data  notebooks  pyproject.toml  scripts
 <header>ECBS5293 · Session 1</header>
 <h2 id="predict-before-you-look">Predict before you look</h2>
 <p>You are standing in <code>project/notebooks/</code>. You type:</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">ls</span> data/raw/sales.csv
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">ls</span> data/raw/sales_2024.csv
 </code></pre>
 <p>Write down two things, before the next slide:</p>
 <ol>
@@ -177,8 +178,8 @@ README.md  data  notebooks  pyproject.toml  scripts
 <header>ECBS5293 · Session 1</header>
 <h2 id="the-same-path-two-answers">The same path, two answers</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cd</span> /Users/anna/project/notebooks
-<span class="hljs-built_in">ls</span> data/raw/sales.csv        <span class="hljs-comment"># fails — I am in notebooks/, not the root</span>
-<span class="hljs-built_in">ls</span> ../data/raw/sales.csv     <span class="hljs-comment"># works</span>
+<span class="hljs-built_in">ls</span> data/raw/sales_2024.csv        <span class="hljs-comment"># fails — I am in notebooks/, not the root</span>
+<span class="hljs-built_in">ls</span> ../data/raw/sales_2024.csv     <span class="hljs-comment"># works</span>
 </code></pre>
 <p><video src="images/cwd_demo.mp4" poster="images/cwd_demo_poster.png" autoplay loop muted playsinline style="display:block;width:1020px;max-width:100%;margin:6px auto;border:1px solid #d0d7de;border-radius:8px"></video></p>
 <p>The file did not move. My position did. <code>No such file</code> means &quot;nothing at that path <strong>from here</strong>.&quot; It says nothing about whether the file exists elsewhere; that is your next question, and <code>ls</code> answers it.</p>
@@ -192,10 +193,10 @@ README.md  data  notebooks  pyproject.toml  scripts
 
 os.getcwd()                              <span class="hljs-comment"># &#x27;/Users/anna/project/notebooks&#x27;</span>
 Path.cwd()                               <span class="hljs-comment"># the pathlib equivalent</span>
-Path(<span class="hljs-string">&quot;data/raw/sales.csv&quot;</span>).exists()      <span class="hljs-comment"># False from notebooks/</span>
-Path(<span class="hljs-string">&quot;../data/raw/sales.csv&quot;</span>).exists()   <span class="hljs-comment"># True</span>
+Path(<span class="hljs-string">&quot;data/raw/sales_2024.csv&quot;</span>).exists()      <span class="hljs-comment"># False from notebooks/</span>
+Path(<span class="hljs-string">&quot;../data/raw/sales_2024.csv&quot;</span>).exists()   <span class="hljs-comment"># True</span>
 </code></pre>
-<p><code>os.getcwd()</code> is Python's <code>pwd</code>. Start Python <strong>from this shell</strong> and it inherits the shell's cwd — same answer. A notebook kernel is a <strong>different process</strong>: ask <em>it</em>, not your terminal.</p>
+<p><code>os.getcwd()</code> is Python's <code>pwd</code>. I started this Python <strong>from that shell</strong>, so it inherited the shell's cwd — same answer. A notebook kernel is a <strong>different process</strong>: ask <em>it</em>, not your terminal.</p>
 <footer>Block 1 — Files, folders, paths, and working directories</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 1 — Files, folders, paths, and working directories" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="16" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 1 — Files, folders, paths, and working directories;--lang:en;--theme:course;" data-marpit-pagination-total="29">
@@ -251,15 +252,15 @@ Path(<span class="hljs-string">&quot;../data/raw/sales.csv&quot;</span>).exists(
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 1 — Files, folders, paths, and working directories" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="20" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 1 — Files, folders, paths, and working directories;--lang:en;--theme:course;" data-marpit-pagination-total="29">
 <header>ECBS5293 · Session 1</header>
 <h2 id="three-honest-fixes-one-dishonest-one">Three honest fixes, one dishonest one</h2>
-<p>When <code>data/raw/sales.csv</code> fails from <code>notebooks/</code>:</p>
+<p>When <code>data/raw/sales_2024.csv</code> fails from <code>notebooks/</code>:</p>
 <ol>
 <li><strong>Move the program's position</strong>: start it from the project root. Best when the README promises that.</li>
-<li><strong>Fix the path</strong> relative to where the program runs: <code>../data/raw/sales.csv</code>. Works from one cwd only.</li>
+<li><strong>Fix the path</strong> relative to where the program runs: <code>../data/raw/sales_2024.csv</code>. Works from one cwd only.</li>
 <li><strong>Anchor to the project root</strong>, so it works from both. The recommended fix for notebooks:</li>
 </ol>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">from</span> pathlib <span class="hljs-keyword">import</span> Path
-ROOT = Path.cwd().parent <span class="hljs-keyword">if</span> Path.cwd().name == <span class="hljs-string">&quot;notebooks&quot;</span> <span class="hljs-keyword">else</span> Path.cwd()
-pd.read_csv(ROOT / <span class="hljs-string">&quot;data/raw/sales.csv&quot;</span>)
+PROJECT_ROOT = Path.cwd().parent <span class="hljs-keyword">if</span> Path.cwd().name == <span class="hljs-string">&quot;notebooks&quot;</span> <span class="hljs-keyword">else</span> Path.cwd()
+pd.read_csv(PROJECT_ROOT / <span class="hljs-string">&quot;data/raw/sales_2024.csv&quot;</span>)
 </code></pre>
 <ol start="4">
 <li><s>Copy the CSV into <code>notebooks/</code> so the wrong path works.</s> Two files, one stale, nobody knows which.</li>
@@ -287,7 +288,7 @@ pd.read_csv(ROOT / <span class="hljs-string">&quot;data/raw/sales.csv&quot;</spa
 Changes not staged for commit:
         modified:   notebooks/analysis.ipynb
 Untracked files:
-        notebooks/sales.csv
+        notebooks/sales_2024.csv
 </code></pre>
 <ul>
 <li><strong>modified</strong>: a tracked file you changed. <strong>untracked</strong>: a file Git has never seen. Nothing listed: unchanged.</li>
@@ -299,8 +300,8 @@ Untracked files:
 <header>ECBS5293 · Session 1</header>
 <h2 id="ai-thread--a-prompt-with-evidence-in-it">AI thread — a prompt with evidence in it</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">I am working in a Python project. My notebook is in notebooks/analysis.ipynb.
-The data file is in data/raw/sales.csv.
-When I run pd.read_csv(&quot;data/raw/sales.csv&quot;), I get FileNotFoundError.
+The data file is in data/raw/sales_2024.csv.
+When I run pd.read_csv(&quot;data/raw/sales_2024.csv&quot;), I get FileNotFoundError.
 I ran os.getcwd() in the notebook and it returned /Users/me/project/notebooks.
 
 What is likely happening? What should I inspect before changing the code?
@@ -328,7 +329,7 @@ What is likely happening? What should I inspect before changing the code?
 <ol>
 <li>What was the symptom?</li>
 <li>What was the actual cause?</li>
-<li>What evidence showed that? Paste the raw output: cwd, the traceback lines.</li>
+<li>What evidence showed that? Paste the raw output: <code>pwd</code> or <code>os.getcwd()</code>, <code>ls</code>, the traceback lines.</li>
 <li>What did you change?</li>
 <li>How did you verify it worked?</li>
 </ol>
@@ -362,11 +363,15 @@ What is likely happening? What should I inspect before changing the code?
 <p><code>notebooks/analysis.ipynb</code> runs <code>pd.read_csv(&quot;raw/sales.csv&quot;)</code> and gets <code>FileNotFoundError</code> — from <em>any</em> working directory. Inspect the tree and the cwd. Find the real file. Fix the path. Verify by loading the data. Write the diagnosis note. Get checked off.</p>
 <p>Do these exactly — Session 2 explains what they mean:</p>
 <ol>
-<li>Terminal, from the project folder: <code>uv sync</code></li>
+<li>Terminal, in your course folder:<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/earino/ecbs5293-lab01-paths.git
+<span class="hljs-built_in">cd</span> ecbs5293-lab01-paths
+uv <span class="hljs-built_in">sync</span>
+</code></pre>
+</li>
 <li>VS Code → <strong>File → Open Folder…</strong> → the project folder</li>
 <li>Open the notebook; <strong>kernel picker</strong> (top right) → the interpreter in <strong><code>.venv/</code></strong></li>
 </ol>
-<p>Recommended fix: the two-line <code>ROOT</code> anchor from the lecture. Stretch: a script in <code>scripts/</code> that uses the same anchor — run it from the root and from <code>scripts/</code>. Which one works, and why?</p>
+<p>Recommended fix: the two-line <code>PROJECT_ROOT</code> anchor from the lecture. Stretch: a script in <code>scripts/</code> that uses the same anchor — run it from the root and from <code>scripts/</code>. Which one works, and why?</p>
 <footer>Block 1 — Files, folders, paths, and working directories</footer>
 </section>
 <script>!function(){"use strict";const t={h1:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:()=>HTMLSpanElement},pre:{proto:()=>HTMLElement,style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},e="data-marp-auto-scaling-wrapper",i="data-marp-auto-scaling-svg",n="data-marp-auto-scaling-container";class s extends HTMLElement{container;containerSize;containerObserver;svg;svgComputedStyle;svgPreserveAspectRatio="xMinYMid meet";wrapper;wrapperSize;wrapperObserver;constructor(){super();const t=t=>([e])=>{const{width:i,height:n}=e.contentRect;this[t]={width:i,height:n},this.updateSVGRect()};this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(t("containerSize")),this.wrapperObserver=new ResizeObserver((...e)=>{t("wrapperSize")(...e),this.flushSvgDisplay()})}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){this.shadowRoot.innerHTML=`\n<style>\n  svg[${i}] { display: block; width: 100%; height: auto; vertical-align: top; }\n  span[${n}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }\n</style>\n<div ${e}>\n  <svg part="svg" ${i}>\n    <foreignObject><span ${n}><slot></slot></span></foreignObject>\n  </svg>\n</div>\n    `.split(/\n\s*/).join(""),this.wrapper=this.shadowRoot.querySelector(`div[${e}]`)??void 0;const t=this.svg;this.svg=this.wrapper?.querySelector(`svg[${i}]`)??void 0,this.svg!==t&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=this.svg?.querySelector(`span[${n}]`)??void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:t}=this;t&&(t.style.display="inline",requestAnimationFrame(()=>{t.style.display=""}))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(t){const e=()=>{const i=(()=>{const e=t.getPropertyValue("--preserve-aspect-ratio");if(e)return e.trim();return`x${(({textAlign:t,direction:e})=>{if(t.endsWith("left"))return"Min";if(t.endsWith("right"))return"Max";if("start"===t||"end"===t){let i="rtl"===e;return"end"===t&&(i=!i),i?"Max":"Min"}return"Mid"})(t)}YMid meet`})();i!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=i,this.updateSVGRect()),t===this.svgComputedStyle&&requestAnimationFrame(e)};e()}updateSVGRect(){let t=Math.ceil(this.containerSize?.width??0);const e=Math.ceil(this.containerSize?.height??0);void 0!==this.dataset.downscaleOnly&&(t=Math.max(t,this.wrapperSize?.width??0));const i=this.svg?.querySelector(":scope > foreignObject");if(i?.setAttribute("width",`${t}`),i?.setAttribute("height",`${e}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${t} ${e}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=t<=0||e<=0?"0":""),this.container){const t=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=t.startsWith("xmid")||t.startsWith("xmax")?"auto":"0",this.container.style.marginRight=t.startsWith("xmi")?"auto":"0"}}}const r=(t,{attrs:e={},style:i})=>class extends t{constructor(...t){super(...t);for(const[t,i]of Object.entries(e))this.hasAttribute(t)||this.setAttribute(t,i);this._shadow()}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_shadow(){if(!this.shadowRoot)try{this.attachShadow({mode:"open"})}catch(t){if(!(t instanceof Error&&"NotSupportedError"===t.name))throw t}return this.shadowRoot}_update(){const t=this._shadow();if(t){const e=i?`<style>:host { ${i} }</style>`:"";let n="<slot></slot>";const{autoScaling:s}=this.dataset;if(void 0!==s){n=`<marp-auto-scaling exportparts="svg:auto-scaling" ${"downscale-only"===s?"data-downscale-only":""}>${n}</marp-auto-scaling>`}t.innerHTML=e+n}}};let o;const a=()=>o??(o=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is"),o),l=Symbol();let c;const d="marpitSVGPolyfill:setZoomFactor,",h=Symbol(),g=Symbol();const p=()=>{const t="Apple Computer, Inc."===navigator.vendor,e=t?[v]:[],i={then:e=>(t?(async()=>{if(void 0===c){const t=document.createElement("canvas");t.width=10,t.height=10;const e=t.getContext("2d"),i=new Image(10,10),n=new Promise(t=>{i.addEventListener("load",()=>t())});i.crossOrigin="anonymous",i.src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%201%201%22%3E%3CforeignObject%20width%3D%221%22%20height%3D%221%22%20requiredExtensions%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22width%3A%201px%3B%20height%3A%201px%3B%20background%3A%20red%3B%20position%3A%20relative%22%3E%3C%2Fdiv%3E%3C%2FforeignObject%3E%3C%2Fsvg%3E",await n,e.drawImage(i,0,0),c=e.getImageData(5,5,1,1).data[3]<128}return c})().then(t=>{null==e||e(t?[v]:[])}):null==e||e([]),i)};return Object.assign(e,i)};let m,u;function v(t){const e="object"==typeof t&&t.target||document,i="object"==typeof t?t.zoom:t;window[g]||(Object.defineProperty(window,g,{configurable:!0,value:!0}),document.body.style.zoom=1.0001,document.body.offsetHeight,document.body.style.zoom=1,window.addEventListener("message",({data:t,origin:e})=>{if(e===window.origin)try{if(t&&"string"==typeof t&&t.startsWith(d)){const[,e]=t.split(","),i=Number.parseFloat(e);Number.isNaN(i)||(u=i)}}catch(t){console.error(t)}}));let n=!1;Array.from(e.querySelectorAll("svg[data-marpit-svg]"),t=>{var e,s,r,o;t.style.transform||(t.style.transform="translateZ(0)");const a=i||u||t.currentScale||1;m!==a&&(m=a,n=a);const l=t.getBoundingClientRect(),{length:c}=t.children;for(let i=0;i<c;i+=1){const n=t.children[i];if(n.getScreenCTM){const t=n.getScreenCTM();if(t){const i=null!==(s=null===(e=n.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==s?s:0,c=null!==(o=null===(r=n.y)||void 0===r?void 0:r.baseVal.value)&&void 0!==o?o:0,d=n.children.length;for(let e=0;e<d;e+=1){const s=n.children[e];if("SECTION"===s.tagName){const{style:e}=s;e.transformOrigin||(e.transformOrigin=`${-i}px ${-c}px`),e.transform=`scale(${a}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-l.left}, ${t.f-l.top}) translateZ(0.0001px)`;break}}}}}}),!1!==n&&Array.from(e.querySelectorAll("iframe"),({contentWindow:t})=>{null==t||t.postMessage(`${d}${n}`,"null"===window.origin?"*":window.origin)})}function w({once:t=!1,target:e=document}={}){const i=function(t=document){if(t[h])return t[h];let e=!0;const i=()=>{e=!1,delete t[h]};Object.defineProperty(t,h,{configurable:!0,value:i});let n=[],s=!1;(async()=>{try{n=await p()}finally{s=!0}})();const r=()=>{for(const e of n)e({target:t});s&&0===n.length||e&&window.requestAnimationFrame(r)};return r(),i}(e);return t?(i(),()=>{}):i}m=1,u=void 0;const b=Symbol(),y=(e=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(((e=document)=>{const i=window[l];i||customElements.define("marp-auto-scaling",s);for(const n of Object.keys(t)){const s=`marp-${n}`,o=t[n].proto();a()&&o!==HTMLElement?i||customElements.define(s,r(o,{style:t[n].style}),{extends:n}):(i||customElements.define(s,r(HTMLElement,t[n])),e.querySelectorAll(`${n}[is="${s}"]`).forEach(t=>{t.outerHTML=t.outerHTML.replace(new RegExp(`^<${n}`,"i"),`<${s}`).replace(new RegExp(`</${n}>$`,"i"),`</${s}>`)}))}window[l]=!0})(e),e[b])return e[b];const i=w({target:e}),n=()=>{i(),delete e[b]},o=Object.assign(n,{cleanup:n,update:()=>y(e)});return Object.defineProperty(e,b,{configurable:!0,value:o}),o},f=document.currentScript;y(f?f.getRootNode():document)}();

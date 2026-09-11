@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="500" viewBox="0 0 860 500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#1f2328">
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+</defs>
+<line x1="430" y1="71" x2="110" y2="145" stroke="#9fb3c8" stroke-width="2"/>
+<line x1="430" y1="71" x2="325" y2="145" stroke="#9fb3c8" stroke-width="2"/>
+<line x1="430" y1="71" x2="540" y2="145" stroke="#9fb3c8" stroke-width="2"/>
+<line x1="430" y1="71" x2="755" y2="145" stroke="#57606a" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="110" y1="191" x2="110" y2="265" stroke="#9fb3c8" stroke-width="2"/>
+<line x1="325" y1="191" x2="325" y2="265" stroke="#9fb3c8" stroke-width="2"/>
+<line x1="540" y1="191" x2="540" y2="265" stroke="#9fb3c8" stroke-width="2"/>
+<line x1="110" y1="311" x2="110" y2="385" stroke="#9fb3c8" stroke-width="2"/>
+<rect x="335" y="17" width="52" height="14" rx="3" fill="#9fb3c8"/><rect x="335" y="25" width="190" height="46" rx="8" fill="#eef3f8" stroke="#9fb3c8" stroke-width="2"/><text x="430" y="56" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">project/</text>
+<rect x="15" y="137" width="52" height="14" rx="3" fill="#9fb3c8"/><rect x="15" y="145" width="190" height="46" rx="8" fill="#eef3f8" stroke="#9fb3c8" stroke-width="2"/><text x="110" y="176" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">data/</text>
+<rect x="230" y="137" width="52" height="14" rx="3" fill="#9fb3c8"/><rect x="230" y="145" width="190" height="46" rx="8" fill="#eef3f8" stroke="#9fb3c8" stroke-width="2"/><text x="325" y="176" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">notebooks/</text>
+<rect x="445" y="137" width="52" height="14" rx="3" fill="#9fb3c8"/><rect x="445" y="145" width="190" height="46" rx="8" fill="#eef3f8" stroke="#9fb3c8" stroke-width="2"/><text x="540" y="176" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">scripts/</text>
+<rect x="15" y="257" width="52" height="14" rx="3" fill="#9fb3c8"/><rect x="15" y="265" width="190" height="46" rx="8" fill="#eef3f8" stroke="#9fb3c8" stroke-width="2"/><text x="110" y="296" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">raw/</text>
+<path d="M230,265 h178 l12,12 v34 h-190 z" fill="#fff" stroke="#c9d1d9" stroke-width="2"/><path d="M408,265 v12 h12" fill="none" stroke="#c9d1d9" stroke-width="2"/><text x="325" y="296" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">analysis.ipynb</text>
+<path d="M445,265 h178 l12,12 v34 h-190 z" fill="#fff" stroke="#c9d1d9" stroke-width="2"/><path d="M623,265 v12 h12" fill="none" stroke="#c9d1d9" stroke-width="2"/><text x="540" y="296" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">analyze.py</text>
+<path d="M15,385 h178 l12,12 v34 h-190 z" fill="#fff" stroke="#c9d1d9" stroke-width="2"/><path d="M193,385 v12 h12" fill="none" stroke="#c9d1d9" stroke-width="2"/><text x="110" y="416" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">sales_2024.csv</text>
+<rect x="660" y="137" width="52" height="14" rx="3" fill="none" stroke="#cf222e" stroke-width="2.5" stroke-dasharray="6 5"/>
+<rect x="660" y="145" width="190" height="46" rx="8" fill="none" stroke="#cf222e" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="755" y="176" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" fill="#cf222e">output/</text>
+<text x="755" y="221" text-anchor="middle" font-size="20" font-weight="700" fill="#cf222e">not in a fresh clone</text>
+<text x="755" y="245" text-anchor="middle" font-size="18" fill="#cf222e">nothing creates it for you</text>
+</svg>

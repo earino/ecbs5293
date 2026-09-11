@@ -49,7 +49,7 @@ Every criterion is scored at **exactly one of its three anchor values** — ther
 
 | Level | Points | Criteria |
 |---|---|---|
-| **Excellent** | 20 | All five parts for every failure: symptom, actual cause, the raw evidence you ran (cwd, `ls`, the traceback lines), what you changed, how you verified. The cause is a cause, not a restatement of the change. Any organisation is fine — one note per failure, or fewer notes — as long as every cause and its evidence is there. |
+| **Excellent** | 20 | All five parts for every failure: symptom, actual cause, the raw evidence you ran (`pwd` or `os.getcwd()`, `ls`, the traceback lines), what you changed, how you verified. The cause is a cause, not a restatement of the change. Any organisation is fine — one note per failure, or fewer notes — as long as every cause and its evidence is there. |
 | **Satisfactory** | 13 | Four of five parts, or the cause is vague ("the path was wrong"). |
 | **Needs Improvement** | 5 | Missing parts, or evidence you did not actually collect. |
 

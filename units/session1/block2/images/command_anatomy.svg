@@ -27,7 +27,7 @@
 <text x="50" y="248" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#57606a" font-weight="400" textLength="264.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">anna@laptop project $ </text>
 <text x="314.0" y="248" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1f2328" font-weight="700" textLength="168.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">ls -l data/raw</text>
 <text x="50" y="282" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1f2328" font-weight="400" textLength="96.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">total 96</text>
-<text x="50" y="316" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1f2328" font-weight="400" textLength="660.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">-rw-r--r--  1 anna  staff  48211 Sep  3 10:42 sales.csv</text>
+<text x="50" y="316" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1f2328" font-weight="400" textLength="720.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">-rw-r--r--  1 anna  staff  48211 Sep  3 10:42 sales_2024.csv</text>
 <path d="M374,324 v8 h60 v-8" fill="none" stroke="#57606a" stroke-width="2"/>
 <text x="404" y="352" text-anchor="middle" font-size="17" fill="#57606a">size in bytes</text>
 <path d="M446,324 v8 h144 v-8" fill="none" stroke="#57606a" stroke-width="2"/>

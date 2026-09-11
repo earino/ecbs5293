@@ -20,7 +20,7 @@
 <rect x="35" y="257" width="52" height="14" rx="3" fill="#9fb3c8"/><rect x="35" y="265" width="190" height="46" rx="8" fill="#eef3f8" stroke="#9fb3c8" stroke-width="2"/><text x="130" y="296" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">raw/</text>
 <path d="M375,265 h178 l12,12 v34 h-190 z" fill="#fff" stroke="#c9d1d9" stroke-width="2"/><path d="M553,265 v12 h12" fill="none" stroke="#c9d1d9" stroke-width="2"/><text x="470" y="296" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">analysis.ipynb</text>
 <path d="M585,265 h178 l12,12 v34 h-190 z" fill="#fff" stroke="#c9d1d9" stroke-width="2"/><path d="M763,265 v12 h12" fill="none" stroke="#c9d1d9" stroke-width="2"/><text x="680" y="296" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">analyze.py</text>
-<path d="M35,385 h178 l12,12 v34 h-190 z" fill="#fff" stroke="#c9d1d9" stroke-width="2"/><path d="M213,385 v12 h12" fill="none" stroke="#c9d1d9" stroke-width="2"/><text x="130" y="416" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">sales.csv</text>
+<path d="M35,385 h178 l12,12 v34 h-190 z" fill="#fff" stroke="#c9d1d9" stroke-width="2"/><path d="M213,385 v12 h12" fill="none" stroke="#c9d1d9" stroke-width="2"/><text x="130" y="416" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21">sales_2024.csv</text>
 <rect x="257" y="131" width="206" height="68" rx="12" fill="none" stroke="#0969da" stroke-width="4"/>
 <text x="469" y="227" font-size="18" font-weight="700" fill="#0969da">you are here (cwd)</text>
 <polyline points="346,145 346,81 144,81 144,145" fill="none" stroke="#1a7f37" stroke-width="4" marker-end="url(#ah-green)"/>
@@ -38,12 +38,12 @@
 <text x="467" y="415" font-size="18" fill="#cf222e">no <tspan font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">data/</tspan> in here</text>
 <line x1="30" y1="464" x2="770" y2="464" stroke="#c9d1d9" stroke-width="1.5"/>
 <text x="34" y="493" font-size="22" font-weight="700" fill="#cf222e">✗</text>
-<text x="66" y="493" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#cf222e">data/raw/sales.csv</text>
-<text x="330" y="493" font-size="19" fill="#57606a">looks for notebooks/data/ — nothing there</text>
+<text x="66" y="493" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#cf222e">data/raw/sales_2024.csv</text>
+<text x="400" y="493" font-size="19" fill="#57606a">notebooks/data/ does not exist</text>
 <text x="34" y="529" font-size="22" font-weight="700" fill="#1a7f37">✓</text>
-<text x="66" y="529" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1a7f37">../data/raw/sales.csv</text>
-<text x="330" y="529" font-size="19" fill="#57606a">up to project/ first, then down</text>
+<text x="66" y="529" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1a7f37">../data/raw/sales_2024.csv</text>
+<text x="400" y="529" font-size="19" fill="#57606a">up to project/ first, then down</text>
 <text x="34" y="565" font-size="22" font-weight="700" fill="#1a7f37">✓</text>
 <text x="66" y="565" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#1a7f37">./analysis.ipynb</text>
-<text x="330" y="565" font-size="19" fill="#57606a">this folder, then the file</text>
+<text x="400" y="565" font-size="19" fill="#57606a">this folder, then the file</text>
 </svg>

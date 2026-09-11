@@ -66,7 +66,7 @@
 <li>That loop is the whole thing. Prompt, command, output, repeat.</li>
 </ul>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">anna@laptop project $ ls data/raw
-sales.csv
+sales_2024.csv
 anna@laptop project $
 </code></pre>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
@@ -99,23 +99,23 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 <h3 id="mkdir-cp-mv"><code>mkdir</code>, <code>cp</code>, <code>mv</code></h3>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="10" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="10" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;--marpit-advanced-background-split:52%;" data-marpit-pagination-total="30" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;images/tree_output.svg&quot;);background-size:contain;"></figure></div></section></foreignObject><foreignObject width="48%" height="720"><section id="10" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="10" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;--marpit-advanced-background-split:52%;" data-marpit-pagination-total="30" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
 <header>ECBS5293 · Session 1</header>
 <h2 id="mkdir--make-a-folder"><code>mkdir</code> — make a folder</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">mkdir</span> output              <span class="hljs-comment"># one folder, in the cwd</span>
-<span class="hljs-built_in">mkdir</span> -p data/processed   <span class="hljs-comment"># make parents as needed; no error if it exists</span>
-<span class="hljs-built_in">ls</span>                        <span class="hljs-comment"># confirm</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">mkdir</span> output
+<span class="hljs-built_in">mkdir</span> -p data/processed
+<span class="hljs-built_in">ls</span>
 </code></pre>
 <ul>
-<li>Relative to the cwd, like every other path.</li>
+<li>Relative to the cwd, like every other path. <code>-p</code> makes the parents too and stays quiet if the folder exists — safe to run twice, which is why run instructions use it. Then <code>ls</code> to confirm.</li>
 <li>Programs do <strong>not</strong> create folders for you when they write files. A script that writes <code>output/summary.csv</code> into a missing <code>output/</code> fails. Remember this in the lab.</li>
 </ul>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="11" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
+</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="10" style="" data-marpit-pagination-total="30" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="11" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="cp--copy"><code>cp</code> — copy</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cp</span> data/raw/sales.csv data/raw/sales_backup.csv   <span class="hljs-comment"># file → new file</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cp</span> data/raw/sales_2024.csv data/raw/sales_backup.csv   <span class="hljs-comment"># file → new file</span>
 <span class="hljs-built_in">cp</span> -r data data_backup                            <span class="hljs-comment"># folder → folder, recursively</span>
 </code></pre>
 <ul>
@@ -127,7 +127,7 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="12" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="mv--move-which-is-also-rename"><code>mv</code> — move, which is also rename</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">mv</span> notebooks/sales.csv data/raw/sales.csv   <span class="hljs-comment"># move to the right place</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">mv</span> notebooks/sales_2024.csv data/raw/sales_2024.csv   <span class="hljs-comment"># move to the right place</span>
 <span class="hljs-built_in">mv</span> analyze.py analyse.py                    <span class="hljs-comment"># same folder: that is a rename</span>
 </code></pre>
 <ul>
@@ -140,7 +140,7 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 <header>ECBS5293 · Session 1</header>
 <h2 id="predict-mv-from-the-wrong-place">Predict: <code>mv</code> from the wrong place</h2>
 <p>You are standing in <code>project/notebooks/</code>. You type:</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">mv</span> notebooks/sales.csv data/raw/sales.csv
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">mv</span> notebooks/sales_2024.csv data/raw/sales_2024.csv
 </code></pre>
 <p>What happens? Decide before the next slide. Hands: moves, or fails?</p>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
@@ -148,10 +148,10 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="14" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="mv-from-the-wrong-place--what-happened"><code>mv</code> from the wrong place — what happened</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">mv: notebooks/sales.csv: No such file or directory
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">mv: notebooks/sales_2024.csv: No such file or directory
 </code></pre>
 <ul>
-<li>Both arguments resolve from the cwd. The shell looked for <code>notebooks/notebooks/sales.csv</code>.</li>
+<li>Both arguments resolve from the cwd. The shell looked for <code>notebooks/notebooks/sales_2024.csv</code>.</li>
 <li>Same rule as Block 1, now with a command that <strong>changes</strong> things.</li>
 <li>Had it succeeded from the wrong place, it would have said nothing. Look, then act.</li>
 </ul>
@@ -177,8 +177,8 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="17" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="tail--the-last-lines"><code>tail</code> — the last lines</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">tail</span> data/raw/sales.csv        <span class="hljs-comment"># last 10 lines</span>
-<span class="hljs-built_in">tail</span> -n 2 data/raw/sales.csv   <span class="hljs-comment"># last 2</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">tail</span> data/raw/sales_2024.csv        <span class="hljs-comment"># last 10 lines</span>
+<span class="hljs-built_in">tail</span> -n 2 data/raw/sales_2024.csv   <span class="hljs-comment"># last 2</span>
 </code></pre>
 <ul>
 <li>Files often go wrong at the end: a truncated download, a trailing &quot;Total&quot; row, a blank line, a footer someone typed by hand.</li>
@@ -189,10 +189,10 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="18" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="wc--how-big-is-it"><code>wc</code> — how big is it?</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">wc</span> -l data/raw/sales.csv       <span class="hljs-comment"># count lines</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">wc</span> -l data/raw/sales_2023.csv       <span class="hljs-comment"># count lines</span>
 <span class="hljs-built_in">wc</span> -l data/raw/*.csv           <span class="hljs-comment"># all CSVs at once</span>
 </code></pre>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">    1201 data/raw/sales.csv
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">    1201 data/raw/sales_2023.csv
 </code></pre>
 <p>1,201 lines. If the header is one line, every record is one line, and nothing trails at the end: 1,200 rows. Say those assumptions when you subtract; a quoted field with a line break in it breaks the arithmetic. When your dataframe says 900, you have a number to argue with.</p>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
@@ -212,11 +212,11 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="20" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="predict-a-script-run-from-scripts">Predict: a script run from <code>scripts/</code></h2>
-<p>Two launches. Inside the script, both times, the code opens <code>data/raw/sales.csv</code>.</p>
+<p>Two launches. Inside the script, both times, the code opens <code>data/raw/sales_2024.csv</code>.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cd</span> scripts &amp;&amp; uv run python analyze.py            <span class="hljs-comment"># launch A</span>
 <span class="hljs-built_in">cd</span> .. &amp;&amp; uv run python scripts/analyze.py         <span class="hljs-comment"># launch B, back at the project root</span>
 </code></pre>
-<p>For each launch, resolve <strong>two</strong> paths from the shell's cwd, and decide whether each exists in the session tree:</p>
+<p>For each launch, resolve <strong>two</strong> paths from the shell's cwd, and decide whether each exists in the project tree from Block 1 (<code>data/raw/sales_2024.csv</code>, <code>notebooks/analysis.ipynb</code>, <code>scripts/analyze.py</code>):</p>
 <ol>
 <li>The <strong>script</strong> path — the thing you typed after <code>python</code>.</li>
 <li>The <strong>data</strong> path — the thing the script opens.</li>
@@ -227,12 +227,12 @@ python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-header="ECBS5293 · Session 1" data-footer="Block 2 — The terminal as a way to inspect reality" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="21" style="--paginate:true;--header:ECBS5293 · Session 1;--footer:Block 2 — The terminal as a way to inspect reality;--lang:en;--theme:course;" data-marpit-pagination-total="30">
 <header>ECBS5293 · Session 1</header>
 <h2 id="running-a-script">Running a script</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cd</span> /path/to/project                <span class="hljs-comment"># the root — where the README says to be</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-built_in">cd</span> ~/where/you/cloned/it           <span class="hljs-comment"># your project folder (the root); not a literal path</span>
 uv run python scripts/analyze.py   <span class="hljs-comment"># launch B: the script path and every path inside it resolve from here</span>
 </code></pre>
 <ul>
-<li><strong>Launch A</strong>, from <code>scripts/</code>: the script path <code>analyze.py</code> resolves to <code>scripts/analyze.py</code>, exists. The data path resolves to <code>scripts/data/raw/sales.csv</code>, does not.</li>
-<li><strong>Launch B</strong>, from the root: <code>scripts/analyze.py</code> exists, and the data path resolves to <code>data/raw/sales.csv</code>, exists. The cwd changed, so both paths changed meaning, and the command had to change to match.</li>
+<li><strong>Launch A</strong>, from <code>scripts/</code>: the script path <code>analyze.py</code> resolves to <code>scripts/analyze.py</code>, exists. The data path resolves to <code>scripts/data/raw/sales_2024.csv</code>, does not.</li>
+<li><strong>Launch B</strong>, from the root: <code>scripts/analyze.py</code> exists, and the data path resolves to <code>data/raw/sales_2024.csv</code>, exists. The cwd changed, so both paths changed meaning, and the command had to change to match.</li>
 <li>The script's cwd is <strong>where you ran it from</strong>, not where the <code>.py</code> file lives. Same rule as the notebook kernel in Block 1. Output goes wherever the script's relative paths point — from the cwd.</li>
 </ul>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
@@ -267,10 +267,10 @@ ls output
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">git status     <span class="hljs-comment"># which files changed?</span>
 git diff       <span class="hljs-comment"># what changed inside them?</span>
 </code></pre>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">--- a/scripts/summarize.py
-+++ b/scripts/summarize.py
--OUTPUT = &quot;../output/summary.csv&quot;
-+OUTPUT = &quot;output/summary.csv&quot;
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-text">--- a/scripts/analyze.py
++++ b/scripts/analyze.py
+-OUT = Path(&quot;../output/summary.csv&quot;)
++OUT = Path(&quot;output/summary.csv&quot;)
 </code></pre>
 <p>Lines starting with <code>-</code> are what was there. Lines with <code>+</code> are what you wrote. Everything else is context.</p>
 <p><code>git diff</code> covers <strong>tracked</strong> files only. A file you created is not in it. A file you <em>moved</em> shows as a deletion at the old place and nothing at the new one; <code>git status</code> lists the new location as <em>untracked</em>.</p>
@@ -326,8 +326,10 @@ Is there a version that only deletes CSV files, and asks before each one?
 <header>ECBS5293 · Session 1</header>
 <h2 id="lab-2--run-the-project-without-clicking-around">Lab 2 — Run the project without clicking around</h2>
 <p><code>scripts/summarize.py</code> reads a CSV with the standard library only — no pandas; this lab is about paths and the shell. First inspect the input with <code>head</code> and <code>wc -l</code>, as the README says. Then follow the README's <em>Reproduce the failure</em> block exactly and read what happens. Then the loop: observe → locate → hypothesize → inspect → change → verify. There is more than one thing wrong, and the first fix is not the last. Record the exact commands that worked. <code>git diff</code> to see your change. One diagnosis note per thing you fixed. Checkoff.</p>
-<p>From the project folder, type this exactly, then the README's <em>Reproduce the failure</em> block:</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">uv <span class="hljs-built_in">sync</span>
+<p>Terminal, in your course folder — type this exactly, then the README's <em>Reproduce the failure</em> block:</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/earino/ecbs5293-lab02-terminal.git
+<span class="hljs-built_in">cd</span> ecbs5293-lab02-terminal
+uv <span class="hljs-built_in">sync</span>
 </code></pre>
 <p>Stretch: make the script robust to the second thing you found, so the next person never meets it. And: why would this also run with bare <code>python scripts/summarize.py</code> and no <code>uv sync</code>? Hold that for Session 2.</p>
 <footer>Block 2 — The terminal as a way to inspect reality</footer>
