@@ -29,11 +29,11 @@ Every criterion is scored at **exactly one of its three anchor values** — no i
 
 | Level | Points | Criteria |
 |---|---|---|
-| **Excellent** | 30 | From a fresh unzip: `uv sync` builds the environment, the script runs, the notebook runs top to bottom after Restart-and-Run-All, and `pyproject.toml` declares what the code needs. |
-| **Satisfactory** | 20 | One entry point fully works and the other still fails on a fresh unzip (for example the script runs and the notebook still fails a clean run); or both run but a dependency is undeclared, so it works only because of the student's own environment. |
+| **Excellent** | 30 | From a fresh unzip: `uv sync` builds the environment, the script runs, the notebook runs top to bottom after Restart-and-Run-All, `pyproject.toml` declares what the code needs, **and the notebook's threshold cell implements the README's policy** (strictly greater than 1,000 — read the cell; the output cannot tell). |
+| **Satisfactory** | 20 | One entry point fully works and the other still fails on a fresh unzip (for example the script runs and the notebook still fails a clean run); or both run but a dependency is undeclared, so it works only because of the student's own environment; or everything runs but the threshold or the comparison in the notebook is not the README's. |
 | **Needs Improvement** | 8 | Neither entry point works from a fresh unzip, or the environment does not build. |
 
-**What we're looking for:** the mismatch between "installed" and "importable" is resolved in the project, not on your laptop.
+**What we're looking for:** the mismatch between "installed" and "importable" is resolved in the project, not on your laptop; and the deleted cell is rebuilt from the stated policy. The policy is checked in the source, because on this data a different threshold can select the same products.
 
 ### 2. Verification (20 points)
 
