@@ -258,8 +258,10 @@ Path(<span class="hljs-string">&quot;../data/raw/sales_2024.csv&quot;</span>).ex
 <li><strong>Fix the path</strong> relative to where the program runs: <code>../data/raw/sales_2024.csv</code>. Works from one cwd only.</li>
 <li><strong>Anchor to the project root</strong>, so it works from both. The recommended fix for notebooks:</li>
 </ol>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">from</span> pathlib <span class="hljs-keyword">import</span> Path
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
+<span class="hljs-keyword">from</span> pathlib <span class="hljs-keyword">import</span> Path
 PROJECT_ROOT = Path.cwd().parent <span class="hljs-keyword">if</span> Path.cwd().name == <span class="hljs-string">&quot;notebooks&quot;</span> <span class="hljs-keyword">else</span> Path.cwd()
+<span class="hljs-built_in">print</span>(PROJECT_ROOT)  <span class="hljs-comment"># must be the project folder</span>
 pd.read_csv(PROJECT_ROOT / <span class="hljs-string">&quot;data/raw/sales_2024.csv&quot;</span>)
 </code></pre>
 <ol start="4">
