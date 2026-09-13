@@ -12,12 +12,12 @@ geometry: margin=1in
 **ECBS5293 — Computing for Analytical Work**
 
 **Deliverable:** Homework 3 — Debugging, data files, recovery, and final diagnosis note
-**Format:** `hw3-submission.zip` (made with `git archive` from your commits; includes `REFLECTION.md`) and the video, both uploaded to Moodle. **Due 48 hours before the final exam; this deadline is firm.**
+**Format:** `hw3-submission.zip` (made with `git archive` from your commits; includes `REFLECTION.md`) and the video, both uploaded to Moodle. **Due Fri 9 Oct 2026, 23:59; one day late at −10%, nothing after Sat 10 Oct 23:59.**
 **Total points:** 100
 
 ## Overview
 
-You receive a repo with several realistic failures. Some are code errors; some are problems in the input data files. You repair the project, verify the output, explain each failure, and — because this is the last deliverable — write a short reflection looking back across all three homeworks. Do not expect graded feedback before the exam; a self-check key is posted on Moodle when submissions close.
+You receive a repo with several realistic failures. Some are code errors; some are problems in the input data files. You repair the project, verify the output, explain each failure, and — because this is the last deliverable — write a short reflection looking back across all three homeworks. Do not expect graded feedback before the exam; a self-check key is posted on Moodle when the late window closes (Sun 11 Oct), together with a mock exam in the final's format. The exam itself is in reading week.
 
 ## How scoring works
 
@@ -106,4 +106,4 @@ Your voice is required: a silent recording scores 0 on all four elements — the
 - AI tools are allowed. You must be able to explain everything you submit, in your own words, without notes.
 - Fix data-loading problems with loading options (delimiter, header, dtype, encoding, dates), not by editing the data file.
 - Re-read your own three diagnosis notes before writing the reflection — that re-reading is the point, and the best exam preparation you have.
-- The deadline is firm: the self-check key is posted when submissions close.
+- Nothing is accepted after Sat 10 Oct 23:59: the self-check key is public from Sun 11 Oct.

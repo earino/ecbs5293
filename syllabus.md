@@ -63,7 +63,7 @@ You remain fully responsible for everything you run, change, and submit. The ass
 | Homework 2 — Python execution, environments, notebooks, and Git checkpoints | 15% |
 | Homework 3 — Debugging, data files, recovery, and final diagnosis note | 15% |
 | Knowledge checks (start of Sessions 2 and 3, closed-book) | 10% |
-| Final exam (closed-book, in-person, ~1 week after Session 3) | 50% |
+| Final exam (closed-book, in-person, in reading week) | 50% |
 
 **Homework** is the repair of a broken repository, graded against a rubric published with each assignment. Every submission includes a written diagnosis note — symptom, cause, evidence, change, verification — and a short video walkthrough in your own voice. The explanation carries more weight than the fix: a working repo you cannot explain loses meaningful credit; a partial fix with an honest diagnosis can still do well. A self-check key for each homework is posted on Moodle after its late window closes.
 
@@ -71,7 +71,7 @@ You remain fully responsible for everything you run, change, and submit. The ass
 
 **Knowledge checks** are 10-minute closed-book checks on the previous session's material. Each is 5%.
 
-**The final exam** is closed-book, individual, in-person, about 70 minutes, in a separate session roughly one week after Session 3 (exact date set by the program calendar). It tests the same skills as the homeworks on new scenarios; format details are announced on Moodle before the exam. Homework 3 is due 48 hours before it.
+**The final exam** is closed-book, individual, in-person, about 70 minutes, in a separate session during reading week, about four weeks after Session 3 (exact date set by the program calendar). It tests the same skills as the homeworks on new scenarios; format details are announced on Moodle before the exam. A mock exam in the same format, with a key, is posted on Moodle with Homework 3's self-check key.
 
 ---
 
@@ -81,7 +81,7 @@ You remain fully responsible for everything you run, change, and submit. The ass
 |---|---|---|---|
 | 1 — Where am I? | Mon 14 Sep 2026 | Files, paths, the terminal, first Git habits | HW1 due **Fri 18 Sep, 23:59** |
 | 2 — What is running? | Mon 21 Sep 2026 | Interpreters, environments, notebooks, Git checkpoints | HW2 due **Fri 25 Sep, 23:59** |
-| 3 — What broke? | Mon 28 Sep 2026 | Tracebacks, data files, recovery | HW3 due 48h before the exam |
+| 3 — What broke? | Mon 28 Sep 2026 | Tracebacks, data files, recovery | HW3 due **Fri 9 Oct, 23:59** |
 
 All deadlines are on Moodle, which is authoritative.
 
@@ -95,7 +95,7 @@ Everything is submitted through **Moodle**; nothing is graded from GitHub. You c
 
 ## Policies
 
-- **Late homework:** HW1 and HW2 are accepted up to one day late at −10% (nothing after Saturday 23:59, so the self-check key can post before Monday's knowledge check). HW3's deadline is firm — its key posts immediately.
+- **Late homework:** accepted up to one day late at −10% (nothing after Saturday 23:59, so each self-check key can post on the Sunday — before Monday's knowledge check for HW1 and HW2, and with the mock exam for HW3).
 - **Extensions:** ask before the deadline, by email, with a reason. Documented illness or emergencies are always accommodated.
 - **Missed knowledge check:** a documented absence moves that 5% to the final exam; an undocumented absence scores 0. No make-up checks.
 - **Missed lab:** do it at home that week and submit the diagnosis note to its Moodle checkpoint; say in the note if you want someone to look at it.

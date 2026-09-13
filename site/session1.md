@@ -10,6 +10,10 @@ nav_order: 1
 
 **Mon 14 Sep 2026**
 
+## Welcome — the course, the people, and how it is graded
+
+**Slides:** [View in browser](../units/session1/block0/slides.html) · [Download PDF](../units/session1/block0/slides.pdf)
+
 ## Block 1 — Files, folders, paths, and working directories
 
 **Slides:** [View in browser](../units/session1/block1/slides.html) · [Download PDF](../units/session1/block1/slides.pdf)
