@@ -7,8 +7,6 @@ nav_order: 1
 
 # Computing for Analytical Work
 
-> ⚠️ Session 1 is complete. Sessions 2 and 3 are not final: their pages are placeholders, and their lab and homework starters will change before release — do not start work on them.
-
 **ECBS5293** · Central European University · MSBA · 2026–2027
 
 One credit of practical instruction in the layer beneath your other courses: the filesystem, the shell, processes, Python environments, Git, and the habit of diagnosing what actually went wrong.
@@ -26,7 +24,7 @@ Three sessions, one question each: **Where am I? · What is running? · What bro
 | # | Unit | Date | Materials |
 |:---:|:---|:---:|:---:|
 | 1 | [Session 1 — Where am I?](site/session1.html) | Mon 14 Sep 2026 | Released |
-| 2 | Session 2 — What is running? | Mon 21 Sep 2026 | — |
-| 3 | Session 3 — What broke? | Mon 28 Sep 2026 | — |
+| 2 | [Session 2 — What is running?](site/session2.html) | Mon 21 Sep 2026 | Released |
+| 3 | [Session 3 — What broke?](site/session3.html) | Mon 28 Sep 2026 | Released |
 
 See the [Syllabus](syllabus.html) for assessment, policies, and setup.

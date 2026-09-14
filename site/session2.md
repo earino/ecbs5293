@@ -10,4 +10,20 @@ nav_order: 2
 
 **Mon 21 Sep 2026**
 
-*Materials will be released before class.*
+## Block 3 — Python interpreters, packages, imports, and environments
+
+**Slides:** [View in browser](../units/session2/block1/slides.html) · [Download PDF](../units/session2/block1/slides.pdf)
+
+**Lab:** It imports on my machine, but not here · [starter repo](https://github.com/earino/ecbs5293-lab03-environments)
+
+## Block 4 — Notebooks, scripts, state, and reproducibility
+
+**Slides:** [View in browser](../units/session2/block2/slides.html) · [Download PDF](../units/session2/block2/slides.pdf)
+
+**Lab:** The notebook lies · [starter repo](https://github.com/earino/ecbs5293-lab04-notebooks)
+
+## Assessments
+
+- **Homework 2 — Python execution, environments, notebooks, and Git checkpoints** (15%) · [starter repo](https://github.com/earino/ecbs5293-hw02-python-environments-notebooks) · [rubric](../assessments/hw2_rubric.md)
+- **Knowledge check 2 (start of Session 2, closed-book)** (5%)
+

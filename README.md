@@ -1,7 +1,5 @@
 # Computing for Analytical Work
 
-> ⚠️ Session 1 is complete. Sessions 2 and 3 are not final: their pages are placeholders, and their lab and homework starters will change before release — do not start work on them.
-
 **ECBS5293** · Central European University · 2026–2027
 
 Course site: https://earino.github.io/ecbs5293/

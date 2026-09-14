@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="400" viewBox="0 0 1180 400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#1f2328">
+<defs>
+<marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker>
+<marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/></marker>
+<marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cf222e"/></marker>
+<marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8250df"/></marker>
+<marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+<marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc4c00"/></marker>
+</defs>
+<text x="30" y="40" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="26" fill="#1f2328" font-weight="700" textLength="202.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">import pandas</text>
+<text x="240" y="40" font-size="18" fill="#57606a" font-weight="400" text-anchor="start">is a search through one interpreter's sys.path, in order. First match wins.</text>
+<text x="30" y="90" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">sys.path of</text>
+<text x="130" y="90" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#0969da" font-weight="700" textLength="172.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.venv/bin/python</text>
+<rect x="30" y="102" width="56" height="14" rx="3" fill="#9fb3c8"/><rect x="30" y="110" width="500" height="40" rx="8" fill="#fff" stroke="#9fb3c8" stroke-width="2"/><text x="42" y="136" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="19" fill="#1f2328" font-weight="400" textLength="91.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">project/</text>
+<circle cx="12" cy="130" r="13" fill="#57606a"/><text x="12" y="135" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<rect x="30" y="160" width="56" height="14" rx="3" fill="#1a7f37"/><rect x="30" y="168" width="500" height="40" rx="8" fill="#eaf7ee" stroke="#1a7f37" stroke-width="2"/><text x="42" y="194" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="19" fill="#1f2328" font-weight="400" textLength="399.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.venv/lib/python3.13/site-packages/</text>
+<circle cx="12" cy="188" r="13" fill="#1a7f37"/><text x="12" y="193" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<rect x="430" y="175" width="110.0" height="26" rx="13" fill="#fff" stroke="#1a7f37" stroke-width="1.5"/><text x="485.0" y="193" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1a7f37">pandas ✓</text>
+<text x="30" y="240" font-size="17" fill="#1a7f37" font-weight="700" text-anchor="start">found: stop, import it</text>
+<text x="620" y="90" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">sys.path of</text>
+<text x="720" y="90" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#bc4c00" font-weight="700" textLength="172.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">/usr/bin/python3</text>
+<rect x="620" y="102" width="56" height="14" rx="3" fill="#9fb3c8"/><rect x="620" y="110" width="500" height="40" rx="8" fill="#fff" stroke="#9fb3c8" stroke-width="2"/><text x="632" y="136" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="19" fill="#1f2328" font-weight="400" textLength="216.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">/usr/lib/python3.9/</text>
+<circle cx="602" cy="130" r="13" fill="#57606a"/><text x="602" y="135" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<rect x="620" y="160" width="56" height="14" rx="3" fill="#9fb3c8"/><rect x="620" y="168" width="500" height="40" rx="8" fill="#fff" stroke="#9fb3c8" stroke-width="2"/><text x="632" y="194" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="19" fill="#1f2328" font-weight="400" textLength="376.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">/usr/lib/python3.9/site-packages/</text>
+<circle cx="602" cy="188" r="13" fill="#57606a"/><text x="602" y="193" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<rect x="620" y="218" width="56" height="14" rx="3" fill="#9fb3c8"/><rect x="620" y="226" width="500" height="40" rx="8" fill="#fff" stroke="#9fb3c8" stroke-width="2"/><text x="632" y="252" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="19" fill="#1f2328" font-weight="400" textLength="353.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">/usr/lib/python3/dist-packages/</text>
+<circle cx="602" cy="246" r="13" fill="#57606a"/><text x="602" y="251" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<rect x="1020" y="233" width="120.5" height="26" rx="13" fill="#fff" stroke="#cf222e" stroke-width="1.5"/><text x="1080.25" y="251" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#cf222e">no pandas</text>
+<text x="620" y="298" font-size="17" fill="#cf222e" font-weight="700" text-anchor="start">end of the list: ModuleNotFoundError</text>
+<text x="30" y="380" font-size="18" fill="#1f2328" font-weight="400" text-anchor="start">Same code. Two interpreters. Each searched its own list and told the truth.</text>
+</svg>
