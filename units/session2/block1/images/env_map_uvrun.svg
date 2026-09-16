@@ -14,14 +14,15 @@
 <rect x="380" y="22" width="56" height="14" rx="3" fill="#9fb3c8"/><rect x="380" y="30" width="440" height="380" rx="8" fill="#eef3f8" stroke="#9fb3c8" stroke-width="2"/><text x="392" y="56" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="19" fill="#1f2328" font-weight="400" textLength="91.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">project/</text>
 <rect x="400" y="80" width="190" height="44" rx="8" fill="#fff" stroke="#c9d1d9" stroke-width="2"/>
 <text x="412" y="108" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#1f2328" font-weight="400" textLength="151.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">pyproject.toml</text>
-<text x="600" y="108" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">the wish list</text>
 <rect x="400" y="136" width="190" height="44" rx="8" fill="#fff" stroke="#c9d1d9" stroke-width="2"/>
 <text x="412" y="164" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#1f2328" font-weight="400" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">uv.lock</text>
+<text x="600" y="108" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">the wish list</text>
 <text x="600" y="164" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">the exact receipt</text>
 <rect x="400" y="202" width="56" height="14" rx="3" fill="#0969da"/><rect x="400" y="210" width="400" height="180" rx="8" fill="#fbfdff" stroke="#0969da" stroke-width="2"/><text x="412" y="236" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="19" fill="#1f2328" font-weight="400" textLength="68.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.venv/</text>
 <rect x="416" y="254" width="175" height="40" rx="8" fill="#fff" stroke="#0969da" stroke-width="2"/>
 <text x="426" y="280" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#0969da" font-weight="700" textLength="108.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">bin/python</text>
-<text x="600" y="280" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">the interpreter</text>
+<text x="600" y="272" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">the interpreter</text>
+<text x="600" y="294" font-size="13" fill="#57606a" font-weight="400" text-anchor="start">Windows: Scripts\python.exe</text>
 <text x="416" y="326" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">site-packages/</text>
 <rect x="416" y="338" width="89.0" height="26" rx="13" fill="#fff" stroke="#1a7f37" stroke-width="1.5"/><text x="460.5" y="356" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#1a7f37">pandas</text>
 <rect x="506" y="338" width="152.0" height="26" rx="13" fill="#fff" stroke="#cf222e" stroke-width="1.5"/><text x="582.0" y="356" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#cf222e">matplotlib ?</text>
@@ -49,7 +50,7 @@
 <text x="30" y="238" font-size="15" fill="#0969da" font-weight="700" text-anchor="start">2  make .venv/ match uv.lock</text>
 <text x="50" y="258" font-size="14" fill="#57606a" font-weight="400" text-anchor="start">adds what is missing; keeps extras</text>
 <text x="50" y="276" font-size="14" fill="#57606a" font-weight="400" text-anchor="start">you installed by hand</text>
-<text x="30" y="306" font-size="15" fill="#0969da" font-weight="700" text-anchor="start">3  run with .venv/bin/python</text>
+<text x="30" y="306" font-size="15" fill="#0969da" font-weight="700" text-anchor="start">3  run with the interpreter in .venv/</text>
 <text x="30" y="340" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">Never the one on PATH.</text>
-<text x="30" y="360" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">Never the one you meant.</text>
+<text x="30" y="360" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">Always the one in .venv/.</text>
 </svg>
