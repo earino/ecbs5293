@@ -26,7 +26,7 @@ Every term the syllabus and setup pages use, one plain sentence each. If a word 
 
 **Interpreter** — the actual Python program (one file on your disk) that reads your code and runs it; your machine may have several, which is why "which Python?" matters.
 
-**JupyterLab** — a notebook editor that runs in your browser; this course uses VS Code for notebooks instead, but `uv run jupyter lab` opens this one if you prefer it.
+**JupyterLab** — a notebook editor that runs in your browser. You will see it referred to elsewhere; **this course uses VS Code for notebooks** and does not set JupyterLab up. Typing `uv run jupyter lab` in a course project will either fail or start some *other* JupyterLab that is already on your machine, on a kernel that is not the project's — which is the failure Block 4 is about.
 
 **Kernel** — the live Python process that runs your notebook's cells and remembers your variables between runs.
 
