@@ -66,7 +66,7 @@
 <span class="hljs-built_in">cd</span> ecbs5293-lab03-environments
 </code></pre>
 <ul>
-<li>Every command you <em>type</em> in this block is typed <strong>there</strong>: that terminal, that folder. Slides you only watch say so.</li>
+<li>Start it now so the lab does not open with thirty people downloading. Then eyes up here — you type nothing else this block.</li>
 <li>It is the Lab 3 starter. Leave its README and its script alone until the lab; the lecture only looks at the project's environment.</li>
 </ul>
 <footer>Block 3 — Python interpreters, packages, imports, and environments</footer>
@@ -79,7 +79,7 @@
 <li><strong>Script</strong> — a <code>.py</code> file the interpreter reads top to bottom, once, then exits</li>
 <li><strong>Notebook</strong> — a long-running interpreter (the <em>kernel</em>) you feed one cell at a time (Block 4, this afternoon)</li>
 </ul>
-<p>In that terminal, in the Lab 3 folder:</p>
+<p>Watch — I run this in the Lab 3 folder:</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">uv run python -c <span class="hljs-string">&quot;import sys; print(sys.executable)&quot;</span>
 </code></pre>
 <p>That prints the path of the interpreter that ran the line. It is a file. You can <code>ls</code> it.</p>
@@ -93,7 +93,7 @@
 <li><code>pandas</code>, <code>matplotlib</code>, <code>jupyter</code> — each is a folder on disk, installed <em>somewhere</em></li>
 <li>Installed means: copied into a folder <strong>that one interpreter knows to look in</strong></li>
 </ul>
-<p>Same terminal, same folder:</p>
+<p>Watch — same terminal, same folder:</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">uv run python -c <span class="hljs-string">&quot;import pandas; print(pandas.__file__)&quot;</span>
 </code></pre>
 <p>That prints where pandas lives. Note the path. It will matter in five slides.</p>
