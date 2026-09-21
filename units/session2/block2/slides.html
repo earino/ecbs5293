@@ -65,16 +65,14 @@
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-header="ECBS5293 · Session 2" data-footer="Block 4 — Notebooks, scripts, state, and reproducibility" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="8" style="--paginate:true;--header:ECBS5293 · Session 2;--footer:Block 4 — Notebooks, scripts, state, and reproducibility;--lang:en;--theme:course;" data-marpit-pagination-total="33">
 <header>ECBS5293 · Session 2</header>
-<h2 id="the-same-thing-on-a-real-kernel">The same thing, on a real kernel</h2>
-<p>In VS Code: <em>File → New File…</em> → <strong>Jupyter Notebook</strong>. Kernel → the interpreter in <strong><code>.venv/</code></strong>.</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python">x = <span class="hljs-number">10</span>        <span class="hljs-comment"># cell 1</span>
-y = x + <span class="hljs-number">5</span>     <span class="hljs-comment"># cell 2</span>
-<span class="hljs-built_in">print</span>(y)
-</code></pre>
-<ol>
-<li>Run cell 1, then cell 2. 2. Edit cell 1 to <code>x = 20</code>. 3. Run <strong>cell 1 alone</strong>. 4. Read what is still printed under cell 2.</li>
-</ol>
-<p><strong>A cell has stopped when its spinner is gone:</strong> a green tick means it succeeded, a red cross means it failed. <code>[*]</code> means still running — wait; do not click again.</p>
+<h2 id="how-you-know-a-cell-has-finished">How you know a cell has finished</h2>
+<p><strong>A cell has stopped when its spinner is gone:</strong> a green tick means it succeeded, a red cross means it failed and the run stopped there.</p>
+<ul>
+<li><strong><code>[*]</code></strong> — still running. Wait. Clicking again does not make it faster; it queues a second run.</li>
+<li><strong><code>[ ]</code></strong> — no run is recorded for it on this kernel, whatever output sits underneath.</li>
+<li>A markdown cell never gets a number at all.</li>
+</ul>
+<p>You will need every one of these in the lab, reading a page somebody else ran.</p>
 <footer>Block 4 — Notebooks, scripts, state, and reproducibility</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-header="ECBS5293 · Session 2" data-footer="Block 4 — Notebooks, scripts, state, and reproducibility" data-lang="en" data-theme="course" lang="en" data-marpit-pagination="9" style="--paginate:true;--header:ECBS5293 · Session 2;--footer:Block 4 — Notebooks, scripts, state, and reproducibility;--lang:en;--theme:course;" data-marpit-pagination-total="33">
