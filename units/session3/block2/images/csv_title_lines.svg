@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="360" viewBox="0 0 1180 360" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#1f2328">
+<defs>
+<marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker>
+<marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/></marker>
+<marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cf222e"/></marker>
+<marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8250df"/></marker>
+<marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+</defs>
+<rect x="20" y="20" width="470" height="200" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+<text x="38" y="54" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#57606a" font-weight="400" textLength="21.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$ </text>
+<text x="59.6" y="54" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#1f2328" font-weight="700" textLength="194.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">head -4 orders.csv</text>
+<text x="38" y="84" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#bc4c00" font-weight="700" textLength="140.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Orders export</text>
+<text x="38" y="114" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#bc4c00" font-weight="700" textLength="216.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Generated 2026-03-01</text>
+<text x="38" y="144" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#1f2328" font-weight="400" textLength="410.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">order_id,customer_id,amount,order_date</text>
+<text x="38" y="174" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" fill="#1f2328" font-weight="400" textLength="280.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">1001,7,"€1,200",2026-01-05</text>
+<line x1="502" y1="120" x2="586" y2="120" stroke="#57606a" stroke-width="3" marker-end="url(#ah-ink)"/>
+<text x="545.0" y="107" font-size="15" fill="#57606a" font-weight="400" text-anchor="middle">read_csv()</text>
+<text x="600" y="48" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">what pandas counted</text>
+<text x="600" y="82" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#bc4c00" font-weight="700" textLength="183.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">line 1  →  1 field</text>
+<text x="815" y="82" font-size="14" fill="#57606a" font-weight="400" text-anchor="start">becomes the header: one column, 'Orders export'</text>
+<text x="600" y="122" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="700" textLength="183.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">line 2  →  1 field</text>
+<text x="815" y="122" font-size="14" fill="#57606a" font-weight="400" text-anchor="start">a row: fine, one column</text>
+<text x="600" y="162" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#cf222e" font-weight="700" textLength="193.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">line 3  →  4 fields</text>
+<text x="815" y="162" font-size="14" fill="#57606a" font-weight="400" text-anchor="start">does not fit one column: stop</text>
+<rect x="590" y="210" width="560" height="70" rx="6" fill="#fff5f5" stroke="#cf222e" stroke-width="2"/>
+<text x="600" y="236" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#cf222e" font-weight="700" textLength="422.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">ParserError: Error tokenizing data. C error:</text>
+<text x="600" y="262" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#cf222e" font-weight="700" textLength="345.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  Expected 1 fields in line 3, saw 4</text>
+<circle cx="40" cy="256" r="12" fill="#bc4c00"/><text x="40" y="261" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="62" y="262" font-size="18" fill="#bc4c00" font-weight="700" text-anchor="start">Two lines that are not data</text>
+<text x="62" y="285" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">sit above the real header. Read the error's</text>
+<text x="62" y="305" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">numbers against the file: expected 1, saw 4,</text>
+<text x="62" y="325" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">line 3 — the numbers are the map.</text>
+<text x="600" y="300" font-size="18" fill="#1f2328" font-weight="700" text-anchor="start">skiprows=2  tells pandas where the header really is.</text>
+<text x="600" y="326" font-size="15" fill="#57606a" font-weight="400" text-anchor="start">header=None, names=[...]  is the opposite case: a file with no header at all.</text>
+</svg>

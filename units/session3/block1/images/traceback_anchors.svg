@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1278.8" height="462" viewBox="0 0 1278.8 462" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#1f2328">
+<defs>
+<marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker>
+<marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/></marker>
+<marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cf222e"/></marker>
+<marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8250df"/></marker>
+<marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+</defs>
+<rect x="10" y="8" width="953.8" height="446" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+<text x="88" y="40" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#9aa4ae" font-weight="400" textLength="772.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[an earlier traceback, 5 frames inside pandas, ends in the same KeyError — chained; skip it]</text>
+<text x="88" y="66" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="346.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Traceback (most recent call last):</text>
+<text x="88" y="92" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="700" textLength="754.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  File "/Users/Shared/anna/project/scripts/report.py", line 9, in &lt;module&gt;</text>
+<text x="88" y="118" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="295.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    total = monthly_total(df)</text>
+<text x="88" y="144" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="700" textLength="805.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  File "/Users/Shared/anna/project/scripts/report.py", line 5, in monthly_total</text>
+<text x="88" y="170" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="306.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    return df["revenue"].sum()</text>
+<text x="88" y="196" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#1f2328" font-weight="400" textLength="244.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">           ~~^^^^^^^^^^^</text>
+<text x="88" y="222" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="400" textLength="734.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  File "…/site-packages/pandas/core/frame.py", line 4378, in __getitem__</text>
+<text x="88" y="248" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="400" textLength="397.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    indexer = self.columns.get_loc(key)</text>
+<text x="88" y="274" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="400" textLength="765.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  File "…/site-packages/pandas/core/indexes/base.py", line 3648, in get_loc</text>
+<text x="88" y="300" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#57606a" font-weight="400" textLength="326.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    raise KeyError(key) from err</text>
+<text x="88" y="326" font-family="'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#cf222e" font-weight="700" textLength="193.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">KeyError: 'revenue'</text>
+<rect x="80" y="306" width="210" height="30" rx="5" fill="none" stroke="#cf222e" stroke-width="2.5"/>
+<circle cx="64" cy="320" r="12" fill="#cf222e"/><text x="64" y="325" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<rect x="80" y="124" width="822" height="58" rx="5" fill="none" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="64" cy="138" r="12" fill="#0969da"/><text x="64" y="143" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<path d="M907.8,204 h8 v102 h-8" fill="none" stroke="#57606a" stroke-width="2"/>
+<circle cx="933.8" cy="255.0" r="12" fill="#57606a"/><text x="933.8" y="260.0" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<line x1="42" y1="322" x2="42" y2="152" stroke="#1a7f37" stroke-width="3" marker-end="url(#ah-green)"/>
+<text transform="translate(36,235.0) rotate(-90)" text-anchor="middle" font-size="13" fill="#1a7f37" font-weight="700">read upward</text>
+<circle cx="988.8" cy="54" r="12" fill="#cf222e"/><text x="988.8" y="59" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="1010.8" y="60" font-size="19" fill="#cf222e" font-weight="700" text-anchor="start">What: the last line</text>
+<text x="1010.8" y="84" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">the error type, and the</text>
+<text x="1010.8" y="105" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">value it could not find</text>
+<circle cx="988.8" cy="146" r="12" fill="#0969da"/><text x="988.8" y="151" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="1010.8" y="152" font-size="19" fill="#0969da" font-weight="700" text-anchor="start">Where: nearest line above</text>
+<text x="1010.8" y="176" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">that is in a file you</text>
+<text x="1010.8" y="197" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">wrote, and the code on</text>
+<text x="1010.8" y="218" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">that line</text>
+<circle cx="988.8" cy="259" r="12" fill="#57606a"/><text x="988.8" y="264" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="1010.8" y="265" font-size="19" fill="#57606a" font-weight="700" text-anchor="start">The call stack</text>
+<text x="1010.8" y="289" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">frames in site-packages</text>
+<text x="1010.8" y="310" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">belong to pandas; the bug</text>
+<text x="1010.8" y="331" font-size="16" fill="#57606a" font-weight="400" text-anchor="start">is almost never there</text>
+<text x="988.8" y="382" font-size="16" fill="#1f2328" font-weight="700" text-anchor="start">Everything else:</text>
+<text x="988.8" y="402" font-size="16" fill="#1f2328" font-weight="700" text-anchor="start">second-tier evidence.</text>
+<text x="988.8" y="426" font-size="13" fill="#9aa4ae" font-weight="400" text-anchor="start">Long paths are shortened at …</text>
+</svg>
